@@ -1,0 +1,14 @@
+[
+    {
+        "name": "Paneer Tikka",
+        "price": 120
+    },
+    {
+        "name": "Veg Biryani",
+        "price": 150
+    },
+    {
+        "name": "Masala Dosa",
+        "price": 100
+    }
+]
