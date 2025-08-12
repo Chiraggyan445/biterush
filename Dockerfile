@@ -21,11 +21,13 @@ COPY . .
 # Install PHP dependencies
 RUN composer install --no-dev --optimize-autoloader
 
-# Generate Laravel key
-RUN php artisan key:generate --force
-
 # Set storage permissions
 RUN chmod -R 775 storage bootstrap/cache
 
+# Copy entrypoint script
+COPY docker-entrypoint.sh /usr/local/bin/
+RUN chmod +x /usr/local/bin/docker-entrypoint.sh
+
 # Start Laravel app
-CMD php artisan serve --host 0.0.0.0 --port 10000
+ENTRYPOINT ["docker-entrypoint.sh"]
+CMD ["php", "artisan", "serve", "--host=0.0.0.0", "--port=10000"]
