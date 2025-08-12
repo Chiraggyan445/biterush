@@ -2,6 +2,12 @@ services:
   - type: web
     name: biterush
     env: docker
+    dockerfilePath: ./Dockerfile
     plan: free
-    buildCommand: ""
-    startCommand: ""
+    envVars:
+      - key: APP_ENV
+        value: production
+      - key: APP_DEBUG
+        value: false
+      - key: APP_URL
+        value: https://biterush.onrender.com
