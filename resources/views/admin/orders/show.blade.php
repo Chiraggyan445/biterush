@@ -1,11 +1,8 @@
-@extends('admin.layouts.admin')
-
-@section('content')
 <div class="container py-4">
     <div class="d-flex justify-content-between align-items-center mb-3">
         <h2>Order #{{ $order->id }} Details</h2>
         @if($order->status !== 'ready')
-            <form action="{{ route('admin.orders.markReady', $order->id) }}" method="POST">
+            <form class="mark-ready-form" action="{{ route('admin.orders.markReady', $order->id) }}" method="POST">
                 @csrf
                 <button type="submit" class="btn btn-success">
                     <i class="bi bi-check-circle"></i> Mark as Ready
@@ -54,16 +51,35 @@
             @endforeach
         </tbody>
     </table>
-
-    @if($nextOrder)
-        <div class="mt-5 alert alert-info d-flex justify-content-between align-items-center">
-            <div>
-                <strong>Next pending order:</strong> #{{ $nextOrder->id }}
-            </div>
-            <a href="{{ route('admin.orders.show', $nextOrder->id) }}" class="btn btn-outline-primary btn-sm">
-                View Next Order
-            </a>
-        </div>
-    @endif
 </div>
-@endsection
+
+@push('scripts')
+
+@push('scripts')
+<script>
+document.getElementById('.mark-ready-form')?.addEventListener('submit', function(e) {
+    e.preventDefault();
+    const orderId = this.dataset.orderId;
+
+    fetch(`/admin/orders/${orderId}/mark-ready`, {
+        method: 'POST',
+        headers: {
+            'X-CSRF-TOKEN': '{{ csrf_token() }}',
+            'Accept': 'application/json',
+            'X-Requested-With': 'XMLHttpRequest'
+        }
+    })
+    .then(res => res.json())
+    .then(data => {
+        if (data.success && data.redirect) {
+            window.location.href = data.redirect;
+        } else {
+            alert('Failed to mark as ready.');
+        }
+    })
+    .catch(() => alert('Something went wrong.'));
+});
+</script>
+@endpush
+
+@endpush

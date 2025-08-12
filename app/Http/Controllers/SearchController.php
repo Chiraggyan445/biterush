@@ -5,13 +5,21 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Session;
 use App\Models\Restaurant;
+use Illuminate\Support\Facades\Auth;
 
 class SearchController extends Controller
 {
-    // 🌆 Show the city selector and search bar
+
+
+    
     public function showSearchPage(Request $request)
     {
-        // Get city list from DB
+
+          if (!Auth::check()) {
+        return redirect('/home')->with('login_required', 'Please log in to continue.');
+    }
+
+
         $datasetCities = Restaurant::pluck('cityname')
             ->map(fn($city) => ucwords(trim($city)))
             ->filter()

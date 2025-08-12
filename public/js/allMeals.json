@@ -1,2027 +1,2438 @@
 [
     {
         "name": "Aloo Tikki",
-        "image": "/images/dishes/aloo-tiki.jpeg",
-        "category": "Others"
+        "image": "\/images\/dishes\/aloo-tiki.jpeg",
+        "category": "Others",
+        "slug": "aloo-tikki"
     },
     {
         "name": "Aloo Paratha",
-        "image": "/images/dishes/aloo-paratha.jpeg",
-        "category": "Others"
+        "image": "\/images\/dishes\/aloo-paratha.jpeg",
+        "category": "Others",
+        "slug": "aloo-paratha"
     },
     {
         "name": "Aloo Matar",
-        "image": "/images/dishes/aloo-matar.jpeg",
-        "category": "Others"
+        "image": "\/images\/dishes\/aloo-matar.jpeg",
+        "category": "Others",
+        "slug": "aloo-matar"
     },
     {
         "name": "Achari Paneer",
-        "image": "/images/dishes/achari-paneer.jpeg",
-        "category": "Main Course"
+        "image": "\/images\/dishes\/achari-paneer.jpeg",
+        "category": "Main Course",
+        "slug": "achari-paneer"
     },
     {
         "name": "Amritsari Fish",
-        "image": "/images/dishes/amritsari-fish.jpeg",
-        "category": "Others"
+        "image": "\/images\/dishes\/amritsari-fish.jpeg",
+        "category": "Others",
+        "slug": "amritsari-fish"
     },
     {
         "name": "Andhra Chicken Curry",
-        "image": "/images/dishes/andhra-chicken-curry.jpeg",
-        "category": "Others"
+        "image": "\/images\/dishes\/andhra-chicken-curry.jpeg",
+        "category": "Others",
+        "slug": "andhra-chicken-curry"
     },
     {
         "name": "Avial",
-        "image": "/images/dishes/avial.jpeg",
-        "category": "Others"
+        "image": "\/images\/dishes\/avial.jpeg",
+        "category": "Others",
+        "slug": "avial"
     },
     {
         "name": "Aloo Bhindi",
-        "image": "/images/dishes/aloo-bhindi.jpeg",
-        "category": "Others"
+        "image": "\/images\/dishes\/aloo-bhindi.jpeg",
+        "category": "Others",
+        "slug": "aloo-bhindi"
     },
     {
         "name": "Aloo Jeera",
-        "image": "/images/dishes/aloo-jeera.jpeg",
-        "category": "Others"
+        "image": "\/images\/dishes\/aloo-jeera.jpeg",
+        "category": "Others",
+        "slug": "aloo-jeera"
     },
     {
         "name": "Aloo Gobi",
-        "image": "/images/dishes/aloo-gobi.jpeg",
-        "category": "Others"
+        "image": "\/images\/dishes\/aloo-gobi.jpeg",
+        "category": "Others",
+        "slug": "aloo-gobi"
     },
     {
         "name": "Apple Milkshake",
-        "image": "/images/dishes/apple-milkshake.jpeg",
-        "category": "Milkshakes"
+        "image": "\/images\/dishes\/apple-milkshake.jpeg",
+        "category": "Milkshakes",
+        "slug": "apple-milkshake"
     },
     {
         "name": "Ajwain Paratha",
-        "image": "/images/dishes/ajwain-paratha.jpeg",
-        "category": "Others"
+        "image": "\/images\/dishes\/ajwain-paratha.jpeg",
+        "category": "Others",
+        "slug": "ajwain-paratha"
     },
     {
         "name": "Aloo Tikka Chaat",
-        "image": "/images/dishes/aloo-tikka-chaat.jpeg",
-        "category": "Main Course"
+        "image": "\/images\/dishes\/aloo-tikka-chaat.jpeg",
+        "category": "Main Course",
+        "slug": "aloo-tikka-chaat"
     },
     {
         "name": "Aloo Pakora",
-        "image": "/images/dishes/aloo-pakora.jpeg",
-        "category": "Snacks"
+        "image": "\/images\/dishes\/aloo-pakora.jpeg",
+        "category": "Snacks",
+        "slug": "aloo-pakora"
     },
     {
         "name": "Amrakhand",
-        "image": "/images/dishes/amrakhand.jpeg",
-        "category": "Others"
+        "image": "\/images\/dishes\/amrakhand.jpeg",
+        "category": "Others",
+        "slug": "amrakhand"
     },
     {
         "name": "Butter Chicken",
-        "image": "/images/dishes/butter-chicken.jpeg",
-        "category": "Main Course"
+        "image": "\/images\/dishes\/butter-chicken.jpeg",
+        "category": "Main Course",
+        "slug": "butter-chicken"
     },
     {
         "name": "Burger",
-        "image": "/images/dishes/burger.jpeg",
-        "category": "Others"
+        "image": "\/images\/dishes\/burger.jpeg",
+        "category": "Others",
+        "slug": "burger"
     },
     {
         "name": "Baingan Ka Bharta",
-        "image": "/images/dishes/baingan-bharta.jpeg",
-        "category": "Others"
+        "image": "\/images\/dishes\/baingan-bharta.jpeg",
+        "category": "Others",
+        "slug": "baingan-ka-bharta"
     },
     {
         "name": "Bhindi Masala",
-        "image": "/images/dishes/bhindi-masala.jpeg",
-        "category": "Main Course"
+        "image": "\/images\/dishes\/bhindi-masala.jpeg",
+        "category": "Main Course",
+        "slug": "bhindi-masala"
     },
     {
         "name": "Bombay Sandwich",
-        "image": "/images/dishes/bombay-sandwich.jpeg",
-        "category": "Others"
+        "image": "\/images\/dishes\/bombay-sandwich.jpeg",
+        "category": "Others",
+        "slug": "bombay-sandwich"
     },
     {
         "name": "Biryani",
-        "image": "/images/dishes/biryani.jpeg",
-        "category": "Biryani & Rice"
+        "image": "\/images\/dishes\/biryani.jpeg",
+        "category": "Biryani & Rice",
+        "slug": "biryani"
     },
     {
         "name": "Beetroot Halwa",
-        "image": "/images/dishes/beetroot-halwa.jpeg",
-        "category": "Desserts"
+        "image": "\/images\/dishes\/beetroot-halwa.jpeg",
+        "category": "Desserts",
+        "slug": "beetroot-halwa"
     },
     {
         "name": "Bread Pakora",
-        "image": "/images/dishes/bread-pakora.jpeg",
-        "category": "Snacks"
+        "image": "\/images\/dishes\/bread-pakora.jpeg",
+        "category": "Snacks",
+        "slug": "bread-pakora"
     },
     {
         "name": "Butter Naan",
-        "image": "/images/dishes/butter-naan.jpeg",
-        "category": "Main Course"
+        "image": "\/images\/dishes\/butter-naan.jpeg",
+        "category": "Main Course",
+        "slug": "butter-naan"
     },
     {
         "name": "Bhel Puri",
-        "image": "/images/dishes/bhel-puri.jpeg",
-        "category": "Others"
+        "image": "\/images\/dishes\/bhel-puri.jpeg",
+        "category": "Others",
+        "slug": "bhel-puri"
     },
     {
         "name": "Boondi Raita",
-        "image": "/images/dishes/boondi-raita.jpeg",
-        "category": "Others"
+        "image": "\/images\/dishes\/boondi-raita.jpeg",
+        "category": "Others",
+        "slug": "boondi-raita"
     },
     {
         "name": "Black Forest Cake",
-        "image": "/images/dishes/black-forest-cake.jpeg",
-        "category": "Desserts"
+        "image": "\/images\/dishes\/black-forest-cake.jpeg",
+        "category": "Desserts",
+        "slug": "black-forest-cake"
     },
     {
         "name": "Bourbon Shake",
-        "image": "/images/dishes/bourbon-shake.jpeg",
-        "category": "Milkshakes"
+        "image": "\/images\/dishes\/bourbon-shake.jpeg",
+        "category": "Milkshakes",
+        "slug": "bourbon-shake"
     },
     {
         "name": "Banana Chips",
-        "image": "/images/dishes/banana-chips.jpeg",
-        "category": "Others"
+        "image": "\/images\/dishes\/banana-chips.jpeg",
+        "category": "Others",
+        "slug": "banana-chips"
     },
     {
         "name": "Bread Upma",
-        "image": "/images/dishes/bread-upma.jpeg",
-        "category": "Others"
+        "image": "\/images\/dishes\/bread-upma.jpeg",
+        "category": "Others",
+        "slug": "bread-upma"
     },
     {
         "name": "Batata Vada",
-        "image": "/images/dishes/batata-vada.jpeg",
-        "category": "Others"
+        "image": "\/images\/dishes\/batata-vada.jpeg",
+        "category": "Others",
+        "slug": "batata-vada"
     },
     {
         "name": "Chole Bature",
-        "image": "/images/dishes/chole-bature.jpeg",
-        "category": "Others"
+        "image": "\/images\/dishes\/chole-bature.jpeg",
+        "category": "Others",
+        "slug": "chole-bature"
     },
     {
         "name": "Chana Masala",
-        "image": "/images/dishes/chana-masala.jpeg",
-        "category": "Main Course"
+        "image": "\/images\/dishes\/chana-masala.jpeg",
+        "category": "Main Course",
+        "slug": "chana-masala"
     },
     {
         "name": "Chicken Tikka",
-        "image": "/images/dishes/chicken-tikka.jpeg",
-        "category": "Main Course"
+        "image": "\/images\/dishes\/chicken-tikka.jpeg",
+        "category": "Main Course",
+        "slug": "chicken-tikka"
     },
     {
         "name": "Chicken 65",
-        "image": "/images/dishes/chicken-65.jpeg",
-        "category": "Others"
+        "image": "\/images\/dishes\/chicken-65.jpeg",
+        "category": "Others",
+        "slug": "chicken-65"
     },
     {
         "name": "Chenna Poda",
-        "image": "/images/dishes/chenna-poda.jpeg",
-        "category": "Others"
+        "image": "\/images\/dishes\/chenna-poda.jpeg",
+        "category": "Others",
+        "slug": "chenna-poda"
     },
     {
         "name": "Chilli Paneer",
-        "image": "/images/dishes/chilli-paneer.jpeg",
-        "category": "Main Course"
+        "image": "\/images\/dishes\/chilli-paneer.jpeg",
+        "category": "Main Course",
+        "slug": "chilli-paneer"
     },
     {
         "name": "Churma",
-        "image": "/images/dishes/churma.jpeg",
-        "category": "Others"
+        "image": "\/images\/dishes\/churma.jpeg",
+        "category": "Others",
+        "slug": "churma"
     },
     {
         "name": "Corn Bhel",
-        "image": "/images/dishes/corn-bhel.jpeg",
-        "category": "Others"
+        "image": "\/images\/dishes\/corn-bhel.jpeg",
+        "category": "Others",
+        "slug": "corn-bhel"
     },
     {
         "name": "Crispy Corn",
-        "image": "/images/dishes/crispy-corn.jpeg",
-        "category": "Others"
+        "image": "\/images\/dishes\/crispy-corn.jpeg",
+        "category": "Others",
+        "slug": "crispy-corn"
     },
     {
         "name": "Chicken Chilli",
-        "image": "/images/dishes/chicken-chilli.jpeg",
-        "category": "Others"
+        "image": "\/images\/dishes\/chicken-chilli.jpeg",
+        "category": "Others",
+        "slug": "chicken-chilli"
     },
     {
         "name": "Chicken Biryani",
-        "image": "/images/dishes/chicken-biryani.jpeg",
-        "category": "Biryani & Rice"
+        "image": "\/images\/dishes\/chicken-biryani.jpeg",
+        "category": "Biryani & Rice",
+        "slug": "chicken-biryani"
     },
     {
         "name": "Chicken Dum Biryani",
-        "image": "/images/dishes/chicken-dum-biryani.jpeg",
-        "category": "Biryani & Rice"
+        "image": "\/images\/dishes\/chicken-dum-biryani.jpeg",
+        "category": "Biryani & Rice",
+        "slug": "chicken-dum-biryani"
     },
     {
         "name": "Chicken Hyderabadi Biryani",
-        "image": "/images/dishes/chicken-hyderabad-Biryani.jpeg",
-        "category": "Biryani & Rice"
+        "image": "\/images\/dishes\/chicken-hyderabad-Biryani.jpeg",
+        "category": "Biryani & Rice",
+        "slug": "chicken-hyderabadi-biryani"
     },
     {
         "name": "Chicken Tandoor Biryani",
-        "image": "/images/dishes/chicken-tandoor-Biryani.jpeg",
-        "category": "Biryani & Rice"
+        "image": "\/images\/dishes\/chicken-tandoor-Biryani.jpeg",
+        "category": "Biryani & Rice",
+        "slug": "chicken-tandoor-biryani"
     },
     {
         "name": "Chicken Tandoori",
-        "image": "/images/dishes/chicken-tandoori.jpeg",
-        "category": "Others"
+        "image": "\/images\/dishes\/chicken-tandoori.jpeg",
+        "category": "Others",
+        "slug": "chicken-tandoori"
     },
     {
         "name": "Chicken Lollipop",
-        "image": "/images/dishes/chicken-lollipop.jpeg",
-        "category": "Others"
+        "image": "\/images\/dishes\/chicken-lollipop.jpeg",
+        "category": "Others",
+        "slug": "chicken-lollipop"
     },
     {
         "name": "Chicken Rogan Gosh",
-        "image": "/images/dishes/chicken-rogan.jpeg",
-        "category": "Others"
+        "image": "\/images\/dishes\/chicken-rogan.jpeg",
+        "category": "Others",
+        "slug": "chicken-rogan-gosh"
     },
     {
         "name": "Chicken Haryali",
-        "image": "/images/dishes/chicken-haryali.jpeg",
-        "category": "Others"
+        "image": "\/images\/dishes\/chicken-haryali.jpeg",
+        "category": "Others",
+        "slug": "chicken-haryali"
     },
     {
         "name": "Chicken Malai Tikka",
-        "image": "/images/dishes/chicken-malai-tikka.jpeg",
-        "category": "Main Course"
+        "image": "\/images\/dishes\/chicken-malai-tikka.jpeg",
+        "category": "Main Course",
+        "slug": "chicken-malai-tikka"
     },
     {
         "name": "Chicken Seek Kebab",
-        "image": "/images/dishes/chicken-seek-kebab.jpeg",
-        "category": "Others"
+        "image": "\/images\/dishes\/chicken-seek-kebab.jpeg",
+        "category": "Others",
+        "slug": "chicken-seek-kebab"
     },
     {
         "name": "Cheese Sandwich",
-        "image": "/images/dishes/cheese-sandwich.jpeg",
-        "category": "Others"
+        "image": "\/images\/dishes\/cheese-sandwich.jpeg",
+        "category": "Others",
+        "slug": "cheese-sandwich"
     },
     {
         "name": "Cheese Pizza",
-        "image": "/images/dishes/cheese-pizza.jpeg",
-        "category": "Others"
+        "image": "\/images\/dishes\/cheese-pizza.jpeg",
+        "category": "Others",
+        "slug": "cheese-pizza"
     },
     {
         "name": "Cheese Balls",
-        "image": "/images/dishes/cheese-balls.jpg",
-        "category": "Others"
+        "image": "\/images\/dishes\/cheese-balls.jpg",
+        "category": "Others",
+        "slug": "cheese-balls"
     },
     {
         "name": "Cheese Burger",
-        "image": "/images/dishes/cheese-burger.jpeg",
-        "category": "Others"
+        "image": "\/images\/dishes\/cheese-burger.jpeg",
+        "category": "Others",
+        "slug": "cheese-burger"
     },
     {
         "name": "Cheese Nuggets",
-        "image": "/images/dishes/cheese-nuggets.jpeg",
-        "category": "Others"
+        "image": "\/images\/dishes\/cheese-nuggets.jpeg",
+        "category": "Others",
+        "slug": "cheese-nuggets"
     },
     {
         "name": "Cheese Rolls",
-        "image": "/images/dishes/cheese-rolls.jpeg",
-        "category": "Others"
+        "image": "\/images\/dishes\/cheese-rolls.jpeg",
+        "category": "Others",
+        "slug": "cheese-rolls"
     },
     {
         "name": "Cheese fries",
-        "image": "/images/dishes/cheese-fries.jpeg",
-        "category": "Others"
+        "image": "\/images\/dishes\/cheese-fries.jpeg",
+        "category": "Others",
+        "slug": "cheese-fries"
     },
     {
         "name": "Chicken Biryani",
-        "image": "/images/dishes/chicken-Biryani.jpeg",
-        "category": "Biryani & Rice"
+        "image": "\/images\/dishes\/chicken-Biryani.jpeg",
+        "category": "Biryani & Rice",
+        "slug": "chicken-biryani"
     },
     {
         "name": "Curd",
-        "image": "/images/dishes/curd.jpeg",
-        "category": "Others"
+        "image": "\/images\/dishes\/curd.jpeg",
+        "category": "Others",
+        "slug": "curd"
     },
     {
         "name": "Corn Tandoori Sandwich",
-        "image": "/images/dishes/corn-tandoori-sandwich.jpeg",
-        "category": "Others"
+        "image": "\/images\/dishes\/corn-tandoori-sandwich.jpeg",
+        "category": "Others",
+        "slug": "corn-tandoori-sandwich"
     },
     {
         "name": "Dal Makhani",
-        "image": "/images/dishes/dal-makhani.jpeg",
-        "category": "Main Course"
+        "image": "\/images\/dishes\/dal-makhani.jpeg",
+        "category": "Main Course",
+        "slug": "dal-makhani"
     },
     {
         "name": "Dal Tadka",
-        "image": "/images/dishes/dal-tadka.jpeg",
-        "category": "Main Course"
+        "image": "\/images\/dishes\/dal-tadka.jpeg",
+        "category": "Main Course",
+        "slug": "dal-tadka"
     },
     {
         "name": "Dhokla",
-        "image": "/images/dishes/dhokla.jpeg",
-        "category": "Others"
+        "image": "\/images\/dishes\/dhokla.jpeg",
+        "category": "Others",
+        "slug": "dhokla"
     },
     {
         "name": "Dahi Bhalla",
-        "image": "/images/dishes/dahi-bhalla.jpeg",
-        "category": "Others"
+        "image": "\/images\/dishes\/dahi-bhalla.jpeg",
+        "category": "Others",
+        "slug": "dahi-bhalla"
     },
     {
         "name": "Dahi Puri",
-        "image": "/images/dishes/dahi-puri.jpeg",
-        "category": "Others"
+        "image": "\/images\/dishes\/dahi-puri.jpeg",
+        "category": "Others",
+        "slug": "dahi-puri"
     },
     {
         "name": "Dum Aloo",
-        "image": "/images/dishes/dum-aloo.jpeg",
-        "category": "Others"
+        "image": "\/images\/dishes\/dum-aloo.jpeg",
+        "category": "Others",
+        "slug": "dum-aloo"
     },
     {
         "name": "Dum Biryani",
-        "image": "/images/dishes/chicken-dum-biryani.jpeg",
-        "category": "Biryani & Rice"
+        "image": "\/images\/dishes\/chicken-dum-biryani.jpeg",
+        "category": "Biryani & Rice",
+        "slug": "dum-biryani"
     },
     {
         "name": "Dosa",
-        "image": "/images/dishes/dosa.jpeg",
-        "category": "Others"
+        "image": "\/images\/dishes\/dosa.jpeg",
+        "category": "Others",
+        "slug": "dosa"
     },
     {
         "name": "Dry Manchurian",
-        "image": "/images/dishes/dry-manchurian.jpeg",
-        "category": "Others"
+        "image": "\/images\/dishes\/dry-manchurian.jpeg",
+        "category": "Others",
+        "slug": "dry-manchurian"
     },
     {
         "name": "Dal Dhokli",
-        "image": "/images/dishes/dal-dhokli.jpeg",
-        "category": "Main Course"
+        "image": "\/images\/dishes\/dal-dhokli.jpeg",
+        "category": "Main Course",
+        "slug": "dal-dhokli"
     },
     {
         "name": "Double Ka Meetha",
-        "image": "/images/dishes/double-ka-meetha.jpeg",
-        "category": "Others"
+        "image": "\/images\/dishes\/double-ka-meetha.jpeg",
+        "category": "Others",
+        "slug": "double-ka-meetha"
     },
     {
         "name": "Drumstick Curry",
-        "image": "/images/dishes/drumstick-curry.jpeg",
-        "category": "Others"
+        "image": "\/images\/dishes\/drumstick-curry.jpeg",
+        "category": "Others",
+        "slug": "drumstick-curry"
     },
     {
         "name": "Dill Leaves Paratha",
-        "image": "/images/dishes/dill-paratha.jpeg",
-        "category": "Others"
+        "image": "\/images\/dishes\/dill-paratha.jpeg",
+        "category": "Others",
+        "slug": "dill-leaves-paratha"
     },
     {
         "name": "Dindigul Biryani",
-        "image": "/images/dishes/dindigul-biryani.jpeg",
-        "category": "Biryani & Rice"
+        "image": "\/images\/dishes\/dindigul-biryani.jpeg",
+        "category": "Biryani & Rice",
+        "slug": "dindigul-biryani"
     },
     {
         "name": "Dal Fry",
-        "image": "/images/dishes/dal-fry.jpeg",
-        "category": "Main Course"
+        "image": "\/images\/dishes\/dal-fry.jpeg",
+        "category": "Main Course",
+        "slug": "dal-fry"
     },
     {
         "name": "Dabeli",
-        "image": "/images/dishes/dabeli.jpeg",
-        "category": "Others"
+        "image": "\/images\/dishes\/dabeli.jpeg",
+        "category": "Others",
+        "slug": "dabeli"
     },
     {
         "name": "Egg Curry",
-        "image": "/images/dishes/egg-curry.jpeg",
-        "category": "Others"
+        "image": "\/images\/dishes\/egg-curry.jpeg",
+        "category": "Others",
+        "slug": "egg-curry"
     },
     {
         "name": "Egg Biryani",
-        "image": "/images/dishes/egg-biryani.jpeg",
-        "category": "Biryani & Rice"
+        "image": "\/images\/dishes\/egg-biryani.jpeg",
+        "category": "Biryani & Rice",
+        "slug": "egg-biryani"
     },
     {
         "name": "Egg Roll",
-        "image": "/images/dishes/egg-roll.jpeg",
-        "category": "Others"
+        "image": "\/images\/dishes\/egg-roll.jpeg",
+        "category": "Others",
+        "slug": "egg-roll"
     },
     {
         "name": "Egg Fried Rice",
-        "image": "/images/dishes/egg-fried-rice.jpeg",
-        "category": "Biryani & Rice"
+        "image": "\/images\/dishes\/egg-fried-rice.jpeg",
+        "category": "Biryani & Rice",
+        "slug": "egg-fried-rice"
     },
     {
         "name": "Egg Bhurji",
-        "image": "/images/dishes/egg-bhurji.jpeg",
-        "category": "Others"
+        "image": "\/images\/dishes\/egg-bhurji.jpeg",
+        "category": "Others",
+        "slug": "egg-bhurji"
     },
     {
         "name": "Egg Dosa",
-        "image": "/images/dishes/egg-dosa.jpeg",
-        "category": "Others"
+        "image": "\/images\/dishes\/egg-dosa.jpeg",
+        "category": "Others",
+        "slug": "egg-dosa"
     },
     {
         "name": "Egg Pakora",
-        "image": "/images/dishes/egg-pakora.jpeg",
-        "category": "Snacks"
+        "image": "\/images\/dishes\/egg-pakora.jpeg",
+        "category": "Snacks",
+        "slug": "egg-pakora"
     },
     {
         "name": "Elaichi Tea",
-        "image": "/images/dishes/elaichi-tea.jpeg",
-        "category": "Others"
+        "image": "\/images\/dishes\/elaichi-tea.jpeg",
+        "category": "Others",
+        "slug": "elaichi-tea"
     },
     {
         "name": "Ela Ada (Kerala Sweet)",
-        "image": "/images/dishes/ela-ada.jpeg",
-        "category": "Desserts"
+        "image": "\/images\/dishes\/ela-ada.jpeg",
+        "category": "Desserts",
+        "slug": "ela-ada-kerala-sweet"
     },
     {
         "name": "Egg Paratha",
-        "image": "/images/dishes/egg-paratha.jpeg",
-        "category": "Others"
+        "image": "\/images\/dishes\/egg-paratha.jpeg",
+        "category": "Others",
+        "slug": "egg-paratha"
     },
     {
         "name": "Egg Keema",
-        "image": "/images/dishes/egg-keema.jpeg",
-        "category": "Others"
+        "image": "\/images\/dishes\/egg-keema.jpeg",
+        "category": "Others",
+        "slug": "egg-keema"
     },
     {
         "name": "Egg Chop",
-        "image": "/images/dishes/egg-chop.jpeg",
-        "category": "Others"
+        "image": "\/images\/dishes\/egg-chop.jpeg",
+        "category": "Others",
+        "slug": "egg-chop"
     },
     {
         "name": "Egg Hakka Noodles",
-        "image": "/images/dishes/egg-hakka-noodles.jpeg",
-        "category": "Others"
+        "image": "\/images\/dishes\/egg-hakka-noodles.jpeg",
+        "category": "Others",
+        "slug": "egg-hakka-noodles"
     },
     {
         "name": "Eral Thokku (Prawn Masala)",
-        "image": "/images/dishes/eral-thokku.jpeg",
-        "category": "Main Course"
+        "image": "\/images\/dishes\/eral-thokku.jpeg",
+        "category": "Main Course",
+        "slug": "eral-thokku-prawn-masala"
     },
     {
         "name": "Egg Malai Curry",
-        "image": "/images/dishes/egg-malai-curry.jpeg",
-        "category": "Others"
+        "image": "\/images\/dishes\/egg-malai-curry.jpeg",
+        "category": "Others",
+        "slug": "egg-malai-curry"
     },
     {
         "name": "Egg Maggie",
-        "image": "/images/dishes/egg-maggie.jpeg",
-        "category": "Others"
+        "image": "\/images\/dishes\/egg-maggie.jpeg",
+        "category": "Others",
+        "slug": "egg-maggie"
     },
     {
         "name": "Falafel",
-        "image": "/images/dishes/falafel.jpeg",
-        "category": "Others"
+        "image": "\/images\/dishes\/falafel.jpeg",
+        "category": "Others",
+        "slug": "falafel"
     },
     {
         "name": "Fish Curry",
-        "image": "/images/dishes/fish-curry.jpeg",
-        "category": "Others"
+        "image": "\/images\/dishes\/fish-curry.jpeg",
+        "category": "Others",
+        "slug": "fish-curry"
     },
     {
         "name": "Fish Fry",
-        "image": "/images/dishes/fish-fry.jpeg",
-        "category": "Others"
+        "image": "\/images\/dishes\/fish-fry.jpeg",
+        "category": "Others",
+        "slug": "fish-fry"
     },
     {
         "name": "Fried Rice",
-        "image": "/images/dishes/fried-rice.jpeg",
-        "category": "Biryani & Rice"
+        "image": "\/images\/dishes\/fried-rice.jpeg",
+        "category": "Biryani & Rice",
+        "slug": "fried-rice"
     },
     {
         "name": "French Fries",
-        "image": "/images/dishes/french-fries.jpeg",
-        "category": "Others"
+        "image": "\/images\/dishes\/french-fries.jpeg",
+        "category": "Others",
+        "slug": "french-fries"
     },
     {
         "name": "Fettuccine Alfredo",
-        "image": "/images/dishes/fettuccine-alfredo.jpeg",
-        "category": "Others"
+        "image": "\/images\/dishes\/fettuccine-alfredo.jpeg",
+        "category": "Others",
+        "slug": "fettuccine-alfredo"
     },
     {
         "name": "Fish Biryani",
-        "image": "/images/dishes/fish-biryani.jpeg",
-        "category": "Biryani & Rice"
+        "image": "\/images\/dishes\/fish-biryani.jpeg",
+        "category": "Biryani & Rice",
+        "slug": "fish-biryani"
     },
     {
         "name": "Fried Momos",
-        "image": "/images/dishes/fried-momos.jpeg",
-        "category": "Snacks"
+        "image": "\/images\/dishes\/fried-momos.jpeg",
+        "category": "Snacks",
+        "slug": "fried-momos"
     },
     {
         "name": "Fried Idli",
-        "image": "/images/dishes/fried-idli.jpeg",
-        "category": "Others"
+        "image": "\/images\/dishes\/fried-idli.jpeg",
+        "category": "Others",
+        "slug": "fried-idli"
     },
     {
         "name": "Fruit Salad",
-        "image": "/images/dishes/fruit-salad.jpeg",
-        "category": "Others"
+        "image": "\/images\/dishes\/fruit-salad.jpeg",
+        "category": "Others",
+        "slug": "fruit-salad"
     },
     {
         "name": "Fruit Custard",
-        "image": "/images/dishes/fruit-custard.jpeg",
-        "category": "Others"
+        "image": "\/images\/dishes\/fruit-custard.jpeg",
+        "category": "Others",
+        "slug": "fruit-custard"
     },
     {
         "name": "Fried Chicken",
-        "image": "/images/dishes/fried-chicken.jpeg",
-        "category": "Others"
+        "image": "\/images\/dishes\/fried-chicken.jpeg",
+        "category": "Others",
+        "slug": "fried-chicken"
     },
     {
         "name": "Falooda",
-        "image": "/images/dishes/falooda.jpeg",
-        "category": "Others"
+        "image": "\/images\/dishes\/falooda.jpeg",
+        "category": "Others",
+        "slug": "falooda"
     },
     {
         "name": "Focaccia Bread",
-        "image": "/images/dishes/focaccia.jpeg",
-        "category": "Others"
+        "image": "\/images\/dishes\/focaccia.jpeg",
+        "category": "Others",
+        "slug": "focaccia-bread"
     },
     {
         "name": "Fish Fingers",
-        "image": "/images/dishes/fish-fingers.jpeg",
-        "category": "Others"
+        "image": "\/images\/dishes\/fish-fingers.jpeg",
+        "category": "Others",
+        "slug": "fish-fingers"
     },
     {
         "name": "Fish Tikka",
-        "image": "/images/dishes/fish-tikka.jpeg",
-        "category": "Main Course"
+        "image": "\/images\/dishes\/fish-tikka.jpeg",
+        "category": "Main Course",
+        "slug": "fish-tikka"
     },
     {
         "name": "Fried Prawns",
-        "image": "/images/dishes/fried-prawns.jpeg",
-        "category": "Others"
+        "image": "\/images\/dishes\/fried-prawns.jpeg",
+        "category": "Others",
+        "slug": "fried-prawns"
     },
     {
         "name": "Fried Cauliflower",
-        "image": "/images/dishes/fried-cauliflower.jpeg",
-        "category": "Others"
+        "image": "\/images\/dishes\/fried-cauliflower.jpeg",
+        "category": "Others",
+        "slug": "fried-cauliflower"
     },
     {
         "name": "Gulab Jamun",
-        "image": "/images/dishes/jamun.jpeg",
-        "category": "Desserts"
+        "image": "\/images\/dishes\/jamun.jpeg",
+        "category": "Desserts",
+        "slug": "gulab-jamun"
     },
     {
         "name": "Gobi Manchurian",
-        "image": "/images/dishes/gobi-manchurian.jpeg",
-        "category": "Others"
+        "image": "\/images\/dishes\/gobi-manchurian.jpeg",
+        "category": "Others",
+        "slug": "gobi-manchurian"
     },
     {
         "name": "Garlic Naan",
-        "image": "/images/dishes/garlic-naan.jpeg",
-        "category": "Others"
+        "image": "\/images\/dishes\/garlic-naan.jpeg",
+        "category": "Others",
+        "slug": "garlic-naan"
     },
     {
         "name": "Green Thai Curry",
-        "image": "/images/dishes/green-thai-curry.jpeg",
-        "category": "Others"
+        "image": "\/images\/dishes\/green-thai-curry.jpeg",
+        "category": "Others",
+        "slug": "green-thai-curry"
     },
     {
         "name": "Grilled Chicken",
-        "image": "/images/dishes/grilled-chicken.jpeg",
-        "category": "Others"
+        "image": "\/images\/dishes\/grilled-chicken.jpeg",
+        "category": "Others",
+        "slug": "grilled-chicken"
     },
     {
         "name": "Gatte Ki Sabzi",
-        "image": "/images/dishes/gatte-ki-sabzi.jpeg",
-        "category": "Others"
+        "image": "\/images\/dishes\/gatte-ki-sabzi.jpeg",
+        "category": "Others",
+        "slug": "gatte-ki-sabzi"
     },
     {
         "name": "Ginger Chicken",
-        "image": "/images/dishes/ginger-chicken.jpeg",
-        "category": "Others"
+        "image": "\/images\/dishes\/ginger-chicken.jpeg",
+        "category": "Others",
+        "slug": "ginger-chicken"
     },
     {
         "name": "Gajar Ka Halwa",
-        "image": "/images/dishes/gajar-ka-halwa.jpeg",
-        "category": "Desserts"
+        "image": "\/images\/dishes\/gajar-ka-halwa.jpeg",
+        "category": "Desserts",
+        "slug": "gajar-ka-halwa"
     },
     {
         "name": "Garlic Bread",
-        "image": "/images/dishes/garlic-bread.jpeg",
-        "category": "Others"
+        "image": "\/images\/dishes\/garlic-bread.jpeg",
+        "category": "Others",
+        "slug": "garlic-bread"
     },
     {
         "name": "Greek Salad",
-        "image": "/images/dishes/greek-salad.jpeg",
-        "category": "Others"
+        "image": "\/images\/dishes\/greek-salad.jpeg",
+        "category": "Others",
+        "slug": "greek-salad"
     },
     {
         "name": "Green Peas Pulao",
-        "image": "/images/dishes/green-peas-pulao.jpeg",
-        "category": "Others"
+        "image": "\/images\/dishes\/green-peas-pulao.jpeg",
+        "category": "Others",
+        "slug": "green-peas-pulao"
     },
     {
         "name": "Gobi Paratha",
-        "image": "/images/dishes/gobi-paratha.jpeg",
-        "category": "Others"
+        "image": "\/images\/dishes\/gobi-paratha.jpeg",
+        "category": "Others",
+        "slug": "gobi-paratha"
     },
     {
         "name": "Ginger Tea",
-        "image": "/images/dishes/ginger-tea.jpeg",
-        "category": "Others"
+        "image": "\/images\/dishes\/ginger-tea.jpeg",
+        "category": "Others",
+        "slug": "ginger-tea"
     },
     {
         "name": "Grilled Fish Tikka",
-        "image": "/images/dishes/grilled-fish-tikka.jpeg",
-        "category": "Main Course"
+        "image": "\/images\/dishes\/grilled-fish-tikka.jpeg",
+        "category": "Main Course",
+        "slug": "grilled-fish-tikka"
     },
     {
         "name": "Ginger Garlic Soup",
-        "image": "/images/dishes/ginger-garlic-soup.jpeg",
-        "category": "Others"
+        "image": "\/images\/dishes\/ginger-garlic-soup.jpeg",
+        "category": "Others",
+        "slug": "ginger-garlic-soup"
     },
     {
         "name": "Gujiya",
-        "image": "/images/dishes/gujiya.jpeg",
-        "category": "Others"
+        "image": "\/images\/dishes\/gujiya.jpeg",
+        "category": "Others",
+        "slug": "gujiya"
     },
     {
         "name": "Gnocchi in Pesto Sauce",
-        "image": "/images/dishes/gnocchi-pesto.jpeg",
-        "category": "Others"
+        "image": "\/images\/dishes\/gnocchi-pesto.jpeg",
+        "category": "Others",
+        "slug": "gnocchi-in-pesto-sauce"
     },
     {
         "name": "Hyderabadi Biryani",
-        "image": "/images/dishes/chicken-hyderabad-biryani.jpeg",
-        "category": "Biryani & Rice"
+        "image": "\/images\/dishes\/chicken-hyderabad-biryani.jpeg",
+        "category": "Biryani & Rice",
+        "slug": "hyderabadi-biryani"
     },
     {
         "name": "Hakka Noodles",
-        "image": "/images/dishes/veg-hakka-noodles.jpeg",
-        "category": "Others"
+        "image": "\/images\/dishes\/veg-hakka-noodles.jpeg",
+        "category": "Others",
+        "slug": "hakka-noodles"
     },
     {
         "name": "Hot and Sour Soup",
-        "image": "/images/dishes/hot-sour-soup.jpeg",
-        "category": "Others"
+        "image": "\/images\/dishes\/hot-sour-soup.jpeg",
+        "category": "Others",
+        "slug": "hot-and-sour-soup"
     },
     {
         "name": "Honey Chilli Potato",
-        "image": "/images/dishes/honey-chilli-potato.jpeg",
-        "category": "Others"
+        "image": "\/images\/dishes\/honey-chilli-potato.jpeg",
+        "category": "Others",
+        "slug": "honey-chilli-potato"
     },
     {
         "name": "Honey Garlic Chicken",
-        "image": "/images/dishes/honey-garlic-chicken.jpeg",
-        "category": "Others"
+        "image": "\/images\/dishes\/honey-garlic-chicken.jpeg",
+        "category": "Others",
+        "slug": "honey-garlic-chicken"
     },
     {
         "name": "Hung Curd Sandwich",
-        "image": "/images/dishes/hung-curd-sandwich.jpeg",
-        "category": "Others"
+        "image": "\/images\/dishes\/hung-curd-sandwich.jpeg",
+        "category": "Others",
+        "slug": "hung-curd-sandwich"
     },
     {
         "name": "Hummus with Pita",
-        "image": "/images/dishes/hummus-pita.jpeg",
-        "category": "Others"
+        "image": "\/images\/dishes\/hummus-pita.jpeg",
+        "category": "Others",
+        "slug": "hummus-with-pita"
     },
     {
         "name": "Hot Dog",
-        "image": "/images/dishes/hot-dog.jpeg",
-        "category": "Others"
+        "image": "\/images\/dishes\/hot-dog.jpeg",
+        "category": "Others",
+        "slug": "hot-dog"
     },
     {
         "name": "Halwa (Sooji)",
-        "image": "/images/dishes/halwa.jpeg",
-        "category": "Desserts"
+        "image": "\/images\/dishes\/halwa.jpeg",
+        "category": "Desserts",
+        "slug": "halwa-sooji"
     },
     {
         "name": "Haleem",
-        "image": "/images/dishes/haleem.jpeg",
-        "category": "Others"
+        "image": "\/images\/dishes\/haleem.jpeg",
+        "category": "Others",
+        "slug": "haleem"
     },
     {
         "name": "Hariyali Chicken",
-        "image": "/images/dishes/chicken-haryali.jpeg",
-        "category": "Others"
+        "image": "\/images\/dishes\/chicken-haryali.jpeg",
+        "category": "Others",
+        "slug": "hariyali-chicken"
     },
     {
         "name": "Herbed Rice",
-        "image": "/images/dishes/herbed-rice.jpeg",
-        "category": "Biryani & Rice"
+        "image": "\/images\/dishes\/herbed-rice.jpeg",
+        "category": "Biryani & Rice",
+        "slug": "herbed-rice"
     },
     {
         "name": "Hungarian Goulash",
-        "image": "/images/dishes/hungarian-goulash.jpeg",
-        "category": "Others"
+        "image": "\/images\/dishes\/hungarian-goulash.jpeg",
+        "category": "Others",
+        "slug": "hungarian-goulash"
     },
     {
         "name": "Honey Cake",
-        "image": "/images/dishes/honey-cake.jpeg",
-        "category": "Desserts"
+        "image": "\/images\/dishes\/honey-cake.jpeg",
+        "category": "Desserts",
+        "slug": "honey-cake"
     },
     {
         "name": "Hash Browns",
-        "image": "/images/dishes/hash-browns.jpeg",
-        "category": "Others"
+        "image": "\/images\/dishes\/hash-browns.jpeg",
+        "category": "Others",
+        "slug": "hash-browns"
     },
     {
         "name": "Hoisin Chicken",
-        "image": "/images/dishes/hoisin-chicken.jpeg",
-        "category": "Others"
+        "image": "\/images\/dishes\/hoisin-chicken.jpeg",
+        "category": "Others",
+        "slug": "hoisin-chicken"
     },
     {
         "name": "Hung Curd Raita",
-        "image": "/images/dishes/hung-curd-raita.jpeg",
-        "category": "Others"
+        "image": "\/images\/dishes\/hung-curd-raita.jpeg",
+        "category": "Others",
+        "slug": "hung-curd-raita"
     },
     {
         "name": "Hot Chocolate Brownie",
-        "image": "/images/dishes/hot-brownie.jpeg",
-        "category": "Others"
+        "image": "\/images\/dishes\/hot-brownie.jpeg",
+        "category": "Others",
+        "slug": "hot-chocolate-brownie"
     },
     {
         "name": "Jeera Rice",
-        "image": "/images/dishes/jeera-rice.jpeg",
-        "category": "Biryani & Rice"
+        "image": "\/images\/dishes\/jeera-rice.jpeg",
+        "category": "Biryani & Rice",
+        "slug": "jeera-rice"
     },
     {
         "name": "Jalebi",
-        "image": "/images/dishes/jalebi.jpeg",
-        "category": "Others"
+        "image": "\/images\/dishes\/jalebi.jpeg",
+        "category": "Others",
+        "slug": "jalebi"
     },
     {
         "name": "Jowar Bhakri",
-        "image": "/images/dishes/jowar-roti.jpeg",
-        "category": "Others"
+        "image": "\/images\/dishes\/jowar-roti.jpeg",
+        "category": "Others",
+        "slug": "jowar-bhakri"
     },
     {
         "name": "Jackfruit Curry",
-        "image": "/images/dishes/jackfruit-curry.jpeg",
-        "category": "Others"
+        "image": "\/images\/dishes\/jackfruit-curry.jpeg",
+        "category": "Others",
+        "slug": "jackfruit-curry"
     },
     {
         "name": "Jackfruit Biryani",
-        "image": "/images/dishes/jackfruit-biryani.jpeg",
-        "category": "Biryani & Rice"
+        "image": "\/images\/dishes\/jackfruit-biryani.jpeg",
+        "category": "Biryani & Rice",
+        "slug": "jackfruit-biryani"
     },
     {
         "name": "Jhal Muri",
-        "image": "/images/dishes/jhal-muri.jpeg",
-        "category": "Others"
+        "image": "\/images\/dishes\/jhal-muri.jpeg",
+        "category": "Others",
+        "slug": "jhal-muri"
     },
     {
         "name": "Jaggery Rice",
-        "image": "/images/dishes/jaggery-rice.jpeg",
-        "category": "Biryani & Rice"
+        "image": "\/images\/dishes\/jaggery-rice.jpeg",
+        "category": "Biryani & Rice",
+        "slug": "jaggery-rice"
     },
     {
         "name": "Jhinga Masala (Prawn)",
-        "image": "/images/dishes/jhinga-masala.jpeg",
-        "category": "Main Course"
+        "image": "\/images\/dishes\/jhinga-masala.jpeg",
+        "category": "Main Course",
+        "slug": "jhinga-masala-prawn"
     },
     {
         "name": "Jaljeera",
-        "image": "/images/dishes/jaljeera.jpeg",
-        "category": "Others"
+        "image": "\/images\/dishes\/jaljeera.jpeg",
+        "category": "Others",
+        "slug": "jaljeera"
     },
     {
         "name": "Jalapeno Cheese Balls",
-        "image": "/images/dishes/jalapeno-balls.jpeg",
-        "category": "Others"
+        "image": "\/images\/dishes\/jalapeno-balls.jpeg",
+        "category": "Others",
+        "slug": "jalapeno-cheese-balls"
     },
     {
         "name": "Jawar Upma",
-        "image": "/images/dishes/jawar-upma.jpeg",
-        "category": "Others"
+        "image": "\/images\/dishes\/jawar-upma.jpeg",
+        "category": "Others",
+        "slug": "jawar-upma"
     },
     {
         "name": "Jamun (Dessert)",
-        "image": "/images/dishes/jamun.jpeg",
-        "category": "Others"
+        "image": "\/images\/dishes\/jamun.jpeg",
+        "category": "Others",
+        "slug": "jamun-dessert"
     },
     {
         "name": "Jeera Aloo",
-        "image": "/images/dishes/aloo-jeera.jpeg",
-        "category": "Others"
+        "image": "\/images\/dishes\/aloo-jeera.jpeg",
+        "category": "Others",
+        "slug": "jeera-aloo"
     },
     {
         "name": "Jalapeno Pizza",
-        "image": "/images/dishes/jalapeno-pizza.jpeg",
-        "category": "Others"
+        "image": "\/images\/dishes\/jalapeno-pizza.jpeg",
+        "category": "Others",
+        "slug": "jalapeno-pizza"
     },
     {
         "name": "Jaggery Chikki",
-        "image": "/images/dishes/jaggery-chikki.jpeg",
-        "category": "Others"
+        "image": "\/images\/dishes\/jaggery-chikki.jpeg",
+        "category": "Others",
+        "slug": "jaggery-chikki"
     },
     {
         "name": "Jowar Dosa",
-        "image": "/images/dishes/jowar-dosa.jpeg",
-        "category": "Others"
+        "image": "\/images\/dishes\/jowar-dosa.jpeg",
+        "category": "Others",
+        "slug": "jowar-dosa"
     },
     {
         "name": "Kadai Paneer",
-        "image": "/images/dishes/kadai-paneer.jpeg",
-        "category": "Main Course"
+        "image": "\/images\/dishes\/kadai-paneer.jpeg",
+        "category": "Main Course",
+        "slug": "kadai-paneer"
     },
     {
         "name": "Kheer",
-        "image": "/images/dishes/kheer.jpeg",
-        "category": "Others"
+        "image": "\/images\/dishes\/kheer.jpeg",
+        "category": "Others",
+        "slug": "kheer"
     },
     {
         "name": "Kathi Roll",
-        "image": "/images/dishes/kathi-roll.jpeg",
-        "category": "Others"
+        "image": "\/images\/dishes\/kathi-roll.jpeg",
+        "category": "Others",
+        "slug": "kathi-roll"
     },
     {
         "name": "Khandvi",
-        "image": "/images/dishes/khandvi.jpeg",
-        "category": "Others"
+        "image": "\/images\/dishes\/khandvi.jpeg",
+        "category": "Others",
+        "slug": "khandvi"
     },
     {
         "name": "Kachori",
-        "image": "/images/dishes/kachori.jpeg",
-        "category": "Others"
+        "image": "\/images\/dishes\/kachori.jpeg",
+        "category": "Others",
+        "slug": "kachori"
     },
     {
         "name": "Khubani Ka Meetha",
-        "image": "/images/dishes/khubani-ka-meetha.jpeg",
-        "category": "Others"
+        "image": "\/images\/dishes\/khubani-ka-meetha.jpeg",
+        "category": "Others",
+        "slug": "khubani-ka-meetha"
     },
     {
         "name": "Korma",
-        "image": "/images/dishes/korma.jpeg",
-        "category": "Others"
+        "image": "\/images\/dishes\/korma.jpeg",
+        "category": "Others",
+        "slug": "korma"
     },
     {
         "name": "Kulcha",
-        "image": "/images/dishes/kulcha.jpeg",
-        "category": "Others"
+        "image": "\/images\/dishes\/kulcha.jpeg",
+        "category": "Others",
+        "slug": "kulcha"
     },
     {
         "name": "Kesar Pista Kulfi",
-        "image": "/images/dishes/kesar-pista-kulfi.jpeg",
-        "category": "Others"
+        "image": "\/images\/dishes\/kesar-pista-kulfi.jpeg",
+        "category": "Others",
+        "slug": "kesar-pista-kulfi"
     },
     {
         "name": "Karela Sabzi",
-        "image": "/images/dishes/karela-sabzi.jpeg",
-        "category": "Others"
+        "image": "\/images\/dishes\/karela-sabzi.jpeg",
+        "category": "Others",
+        "slug": "karela-sabzi"
     },
     {
         "name": "Kozhi Varutharachathu (Kerala Chicken Curry)",
-        "image": "/images/dishes/kozhi-curry.jpeg",
-        "category": "Others"
+        "image": "\/images\/dishes\/kozhi-curry.jpeg",
+        "category": "Others",
+        "slug": "kozhi-varutharachathu-kerala-chicken-curry"
     },
     {
         "name": "Kuzhi Paniyaram",
-        "image": "/images/dishes/kuzhi-paniyaram.jpeg",
-        "category": "Others"
+        "image": "\/images\/dishes\/kuzhi-paniyaram.jpeg",
+        "category": "Others",
+        "slug": "kuzhi-paniyaram"
     },
     {
         "name": "Khar (Assamese Dish)",
-        "image": "/images/dishes/khar.jpeg",
-        "category": "Others"
+        "image": "\/images\/dishes\/khar.jpeg",
+        "category": "Others",
+        "slug": "khar-assamese-dish"
     },
     {
         "name": "Kozhukattai",
-        "image": "/images/dishes/kozhukattai.jpeg",
-        "category": "Others"
+        "image": "\/images\/dishes\/kozhukattai.jpeg",
+        "category": "Others",
+        "slug": "kozhukattai"
     },
     {
         "name": "Keema Pav",
-        "image": "/images/dishes/keema-pav.jpeg",
-        "category": "Others"
+        "image": "\/images\/dishes\/keema-pav.jpeg",
+        "category": "Others",
+        "slug": "keema-pav"
     },
     {
         "name": "Kharabath",
-        "image": "/images/dishes/kharabath.jpeg",
-        "category": "Others"
+        "image": "\/images\/dishes\/kharabath.jpeg",
+        "category": "Others",
+        "slug": "kharabath"
     },
     {
         "name": "Litti Chokha",
-        "image": "/images/dishes/litti-chokha.jpeg",
-        "category": "Others"
+        "image": "\/images\/dishes\/litti-chokha.jpeg",
+        "category": "Others",
+        "slug": "litti-chokha"
     },
     {
         "name": "Lachha Paratha",
-        "image": "/images/dishes/lachha-paratha.jpeg",
-        "category": "Others"
+        "image": "\/images\/dishes\/lachha-paratha.jpeg",
+        "category": "Others",
+        "slug": "lachha-paratha"
     },
     {
         "name": "Lemon Rice",
-        "image": "/images/dishes/lemon-rice.jpeg",
-        "category": "Biryani & Rice"
+        "image": "\/images\/dishes\/lemon-rice.jpeg",
+        "category": "Biryani & Rice",
+        "slug": "lemon-rice"
     },
     {
         "name": "Lassi",
-        "image": "/images/dishes/lassi.jpeg",
-        "category": "Drinks & Beverages"
+        "image": "\/images\/dishes\/lassi.jpeg",
+        "category": "Drinks & Beverages",
+        "slug": "lassi"
     },
     {
         "name": "Lauki Kofta",
-        "image": "/images/dishes/lauki-kofta.jpeg",
-        "category": "Others"
+        "image": "\/images\/dishes\/lauki-kofta.jpeg",
+        "category": "Others",
+        "slug": "lauki-kofta"
     },
     {
         "name": "Lamb Rogan Josh",
-        "image": "/images/dishes/rogan-josh.jpeg",
-        "category": "Others"
+        "image": "\/images\/dishes\/rogan-josh.jpeg",
+        "category": "Others",
+        "slug": "lamb-rogan-josh"
     },
     {
         "name": "Lapsi",
-        "image": "/images/dishes/lapsi.jpeg",
-        "category": "Others"
+        "image": "\/images\/dishes\/lapsi.jpeg",
+        "category": "Others",
+        "slug": "lapsi"
     },
     {
         "name": "Lemon Chicken",
-        "image": "/images/dishes/lemon-chicken.jpeg",
-        "category": "Others"
+        "image": "\/images\/dishes\/lemon-chicken.jpeg",
+        "category": "Others",
+        "slug": "lemon-chicken"
     },
     {
         "name": "Lauki Chana Dal",
-        "image": "/images/dishes/lauki-chana-dal.jpeg",
-        "category": "Main Course"
+        "image": "\/images\/dishes\/lauki-chana-dal.jpeg",
+        "category": "Main Course",
+        "slug": "lauki-chana-dal"
     },
     {
         "name": "Lamb Biryani",
-        "image": "/images/dishes/lamb-biryani.jpeg",
-        "category": "Biryani & Rice"
+        "image": "\/images\/dishes\/lamb-biryani.jpeg",
+        "category": "Biryani & Rice",
+        "slug": "lamb-biryani"
     },
     {
         "name": "Lemon Coriander Soup",
-        "image": "/images/dishes/lemon-coriander-soup.jpeg",
-        "category": "Others"
+        "image": "\/images\/dishes\/lemon-coriander-soup.jpeg",
+        "category": "Others",
+        "slug": "lemon-coriander-soup"
     },
     {
         "name": "Lauki Thepla",
-        "image": "/images/dishes/lauki-thepla.jpeg",
-        "category": "Others"
+        "image": "\/images\/dishes\/lauki-thepla.jpeg",
+        "category": "Others",
+        "slug": "lauki-thepla"
     },
     {
         "name": "Lemon Pickle",
-        "image": "/images/dishes/lemon-pickle.jpeg",
-        "category": "Others"
+        "image": "\/images\/dishes\/lemon-pickle.jpeg",
+        "category": "Others",
+        "slug": "lemon-pickle"
     },
     {
         "name": "Litchi Milkshake",
-        "image": "/images/dishes/litchi-milkshake.jpeg",
-        "category": "Milkshakes"
+        "image": "\/images\/dishes\/litchi-milkshake.jpeg",
+        "category": "Milkshakes",
+        "slug": "litchi-milkshake"
     },
     {
         "name": "Lamb Korma",
-        "image": "/images/dishes/lamb-korma.jpeg",
-        "category": "Others"
+        "image": "\/images\/dishes\/lamb-korma.jpeg",
+        "category": "Others",
+        "slug": "lamb-korma"
     },
     {
         "name": "Lemon Sevai",
-        "image": "/images/dishes/lemon-sevai.jpeg",
-        "category": "Others"
+        "image": "\/images\/dishes\/lemon-sevai.jpeg",
+        "category": "Others",
+        "slug": "lemon-sevai"
     },
     {
         "name": "Momos",
-        "image": "/images/dishes/momos.jpeg",
-        "category": "Snacks"
+        "image": "\/images\/dishes\/momos.jpeg",
+        "category": "Snacks",
+        "slug": "momos"
     },
     {
         "name": "Masala Dosa",
-        "image": "/images/dishes/masala-dosa.jpeg",
-        "category": "Main Course"
+        "image": "\/images\/dishes\/masala-dosa.jpeg",
+        "category": "Main Course",
+        "slug": "masala-dosa"
     },
     {
         "name": "Mutter Paneer",
-        "image": "/images/dishes/mutter-paneer.jpeg",
-        "category": "Main Course"
+        "image": "\/images\/dishes\/mutter-paneer.jpeg",
+        "category": "Main Course",
+        "slug": "mutter-paneer"
     },
     {
         "name": "Mysore Pak",
-        "image": "/images/dishes/mysore-pak.jpeg",
-        "category": "Others"
+        "image": "\/images\/dishes\/mysore-pak.jpeg",
+        "category": "Others",
+        "slug": "mysore-pak"
     },
     {
         "name": "Mutton Biryani",
-        "image": "/images/dishes/mutton-biryani.jpeg",
-        "category": "Biryani & Rice"
+        "image": "\/images\/dishes\/mutton-biryani.jpeg",
+        "category": "Biryani & Rice",
+        "slug": "mutton-biryani"
     },
     {
         "name": "Methi Paratha",
-        "image": "/images/dishes/methi-paratha.jpeg",
-        "category": "Others"
+        "image": "\/images\/dishes\/methi-paratha.jpeg",
+        "category": "Others",
+        "slug": "methi-paratha"
     },
     {
         "name": "Malai Kofta",
-        "image": "/images/dishes/malai-kofta.jpeg",
-        "category": "Others"
+        "image": "\/images\/dishes\/malai-kofta.jpeg",
+        "category": "Others",
+        "slug": "malai-kofta"
     },
     {
         "name": "Murgh Musallam",
-        "image": "/images/dishes/murgh-musallam.jpeg",
-        "category": "Others"
+        "image": "\/images\/dishes\/murgh-musallam.jpeg",
+        "category": "Others",
+        "slug": "murgh-musallam"
     },
     {
         "name": "Misal Pav",
-        "image": "/images/dishes/misal-pav.jpeg",
-        "category": "Others"
+        "image": "\/images\/dishes\/misal-pav.jpeg",
+        "category": "Others",
+        "slug": "misal-pav"
     },
     {
         "name": "Moong Dal Halwa",
-        "image": "/images/dishes/moong-dal-halwa.jpeg",
-        "category": "Main Course"
+        "image": "\/images\/dishes\/moong-dal-halwa.jpeg",
+        "category": "Main Course",
+        "slug": "moong-dal-halwa"
     },
     {
         "name": "Mango Lassi",
-        "image": "/images/dishes/mango-lassi.jpeg",
-        "category": "Drinks & Beverages"
+        "image": "\/images\/dishes\/mango-lassi.jpeg",
+        "category": "Drinks & Beverages",
+        "slug": "mango-lassi"
     },
     {
         "name": "Malabar Parotta",
-        "image": "/images/dishes/malabar-parotta.jpeg",
-        "category": "Others"
+        "image": "\/images\/dishes\/malabar-parotta.jpeg",
+        "category": "Others",
+        "slug": "malabar-parotta"
     },
     {
         "name": "Mysore Masala Dosa",
-        "image": "/images/dishes/mysore-masala-dosa.jpeg",
-        "category": "Main Course"
+        "image": "\/images\/dishes\/mysore-masala-dosa.jpeg",
+        "category": "Main Course",
+        "slug": "mysore-masala-dosa"
     },
     {
         "name": "Methi Thepla",
-        "image": "/images/dishes/methi-thepla.jpeg",
-        "category": "Others"
+        "image": "\/images\/dishes\/methi-thepla.jpeg",
+        "category": "Others",
+        "slug": "methi-thepla"
     },
     {
         "name": "Masala Vada",
-        "image": "/images/dishes/masala-vada.jpeg",
-        "category": "Main Course"
+        "image": "\/images\/dishes\/masala-vada.jpeg",
+        "category": "Main Course",
+        "slug": "masala-vada"
     },
     {
         "name": "Maggie Masala",
-        "image": "/images/dishes/maggie.jpeg",
-        "category": "Main Course"
+        "image": "\/images\/dishes\/maggie.jpeg",
+        "category": "Main Course",
+        "slug": "maggie-masala"
     },
     {
         "name": "Milk Cake",
-        "image": "/images/dishes/milk-cake.jpeg",
-        "category": "Desserts"
+        "image": "\/images\/dishes\/milk-cake.jpeg",
+        "category": "Desserts",
+        "slug": "milk-cake"
     },
     {
         "name": "Naan",
-        "image": "/images/dishes/naan.jpeg",
-        "category": "Others"
+        "image": "\/images\/dishes\/naan.jpeg",
+        "category": "Others",
+        "slug": "naan"
     },
     {
         "name": "Navratan Korma",
-        "image": "/images/dishes/navratan-korma.jpeg",
-        "category": "Others"
+        "image": "\/images\/dishes\/navratan-korma.jpeg",
+        "category": "Others",
+        "slug": "navratan-korma"
     },
     {
         "name": "Nethili Fry (Anchovy Fry)",
-        "image": "/images/dishes/nethili-fry.jpeg",
-        "category": "Others"
+        "image": "\/images\/dishes\/nethili-fry.jpeg",
+        "category": "Others",
+        "slug": "nethili-fry-anchovy-fry"
     },
     {
         "name": "Nankhatai",
-        "image": "/images/dishes/nankhatai.jpeg",
-        "category": "Others"
+        "image": "\/images\/dishes\/nankhatai.jpeg",
+        "category": "Others",
+        "slug": "nankhatai"
     },
     {
         "name": "Nargisi Kofta",
-        "image": "/images/dishes/nargisi-kofta.jpeg",
-        "category": "Others"
+        "image": "\/images\/dishes\/nargisi-kofta.jpeg",
+        "category": "Others",
+        "slug": "nargisi-kofta"
     },
     {
         "name": "Noodles (Hakka Veg)",
-        "image": "/images/dishes/veg-hakka-noodles.jpeg",
-        "category": "Others"
+        "image": "\/images\/dishes\/veg-hakka-noodles.jpeg",
+        "category": "Others",
+        "slug": "noodles-hakka-veg"
     },
     {
         "name": "Nimbu Pani",
-        "image": "/images/dishes/nimbu-pani.jpeg",
-        "category": "Others"
+        "image": "\/images\/dishes\/nimbu-pani.jpeg",
+        "category": "Others",
+        "slug": "nimbu-pani"
     },
     {
         "name": "Nasi Goreng (Indian-style)",
-        "image": "/images/dishes/nasi-goreng.jpeg",
-        "category": "Indian Thali"
+        "image": "\/images\/dishes\/nasi-goreng.jpeg",
+        "category": "Indian Thali",
+        "slug": "nasi-goreng-indian-style"
     },
     {
         "name": "Nutrela Soya Curry",
-        "image": "/images/dishes/soya-curry.jpeg",
-        "category": "Others"
+        "image": "\/images\/dishes\/soya-curry.jpeg",
+        "category": "Others",
+        "slug": "nutrela-soya-curry"
     },
     {
         "name": "Nihari",
-        "image": "/images/dishes/nihari.jpeg",
-        "category": "Others"
+        "image": "\/images\/dishes\/nihari.jpeg",
+        "category": "Others",
+        "slug": "nihari"
     },
     {
         "name": "Nutri Kulcha",
-        "image": "/images/dishes/nutri-kulcha.jpeg",
-        "category": "Others"
+        "image": "\/images\/dishes\/nutri-kulcha.jpeg",
+        "category": "Others",
+        "slug": "nutri-kulcha"
     },
     {
         "name": "Noodle Soup",
-        "image": "/images/dishes/noodle-soup.jpeg",
-        "category": "Others"
+        "image": "\/images\/dishes\/noodle-soup.jpeg",
+        "category": "Others",
+        "slug": "noodle-soup"
     },
     {
         "name": "Neer Dosa",
-        "image": "/images/dishes/neer-dosa.jpeg",
-        "category": "Others"
+        "image": "\/images\/dishes\/neer-dosa.jpeg",
+        "category": "Others",
+        "slug": "neer-dosa"
     },
     {
         "name": "Nariyal Chutney",
-        "image": "/images/dishes/nariyal-chutney.jpeg",
-        "category": "Others"
+        "image": "\/images\/dishes\/nariyal-chutney.jpeg",
+        "category": "Others",
+        "slug": "nariyal-chutney"
     },
     {
         "name": "Nolen Gurer Sandesh",
-        "image": "/images/dishes/nolen-gurer-sandesh.jpeg",
-        "category": "Others"
+        "image": "\/images\/dishes\/nolen-gurer-sandesh.jpeg",
+        "category": "Others",
+        "slug": "nolen-gurer-sandesh"
     },
     {
         "name": "Namkeen Sev",
-        "image": "/images/dishes/namkeen-sev.jpeg",
-        "category": "Others"
+        "image": "\/images\/dishes\/namkeen-sev.jpeg",
+        "category": "Others",
+        "slug": "namkeen-sev"
     },
     {
         "name": "Onion Pakora",
-        "image": "/images/dishes/onion-pakora.jpeg",
-        "category": "Snacks"
+        "image": "\/images\/dishes\/onion-pakora.jpeg",
+        "category": "Snacks",
+        "slug": "onion-pakora"
     },
     {
         "name": "Onion Uttapam",
-        "image": "/images/dishes/onion-uttapam.jpeg",
-        "category": "Others"
+        "image": "\/images\/dishes\/onion-uttapam.jpeg",
+        "category": "Others",
+        "slug": "onion-uttapam"
     },
     {
         "name": "Oats Upma",
-        "image": "/images/dishes/oats-upma.jpeg",
-        "category": "Others"
+        "image": "\/images\/dishes\/oats-upma.jpeg",
+        "category": "Others",
+        "slug": "oats-upma"
     },
     {
         "name": "Oats Idli",
-        "image": "/images/dishes/oats-idli.jpeg",
-        "category": "Others"
+        "image": "\/images\/dishes\/oats-idli.jpeg",
+        "category": "Others",
+        "slug": "oats-idli"
     },
     {
         "name": "Olan (Kerala Dish)",
-        "image": "/images/dishes/olan.jpeg",
-        "category": "Others"
+        "image": "\/images\/dishes\/olan.jpeg",
+        "category": "Others",
+        "slug": "olan-kerala-dish"
     },
     {
         "name": "Onion Bhaji",
-        "image": "/images/dishes/onion-bhaji.jpeg",
-        "category": "Others"
+        "image": "\/images\/dishes\/onion-bhaji.jpeg",
+        "category": "Others",
+        "slug": "onion-bhaji"
     },
     {
         "name": "Oreo Milkshake",
-        "image": "/images/dishes/oreo-milkshake.jpeg",
-        "category": "Milkshakes"
+        "image": "\/images\/dishes\/oreo-milkshake.jpeg",
+        "category": "Milkshakes",
+        "slug": "oreo-milkshake"
     },
     {
         "name": "Onion Chutney",
-        "image": "/images/dishes/onion-chutney.jpeg",
-        "category": "Others"
+        "image": "\/images\/dishes\/onion-chutney.jpeg",
+        "category": "Others",
+        "slug": "onion-chutney"
     },
     {
         "name": "Omelette Curry",
-        "image": "/images/dishes/omelette-curry.jpeg",
-        "category": "Others"
+        "image": "\/images\/dishes\/omelette-curry.jpeg",
+        "category": "Others",
+        "slug": "omelette-curry"
     },
     {
         "name": "Oats Chilla",
-        "image": "/images/dishes/oats-chilla.jpeg",
-        "category": "Others"
+        "image": "\/images\/dishes\/oats-chilla.jpeg",
+        "category": "Others",
+        "slug": "oats-chilla"
     },
     {
         "name": "Orange Barfi",
-        "image": "/images/dishes/orange-barfi.jpeg",
-        "category": "Others"
+        "image": "\/images\/dishes\/orange-barfi.jpeg",
+        "category": "Others",
+        "slug": "orange-barfi"
     },
     {
         "name": "Oreo Cheesecake",
-        "image": "/images/dishes/oreo-cheesecake.jpeg",
-        "category": "Desserts"
+        "image": "\/images\/dishes\/oreo-cheesecake.jpeg",
+        "category": "Desserts",
+        "slug": "oreo-cheesecake"
     },
     {
         "name": "Oats Dhokla",
-        "image": "/images/dishes/oats-dhokla.jpeg",
-        "category": "Others"
+        "image": "\/images\/dishes\/oats-dhokla.jpeg",
+        "category": "Others",
+        "slug": "oats-dhokla"
     },
     {
         "name": "Onion Parantha",
-        "image": "/images/dishes/onion-paratha.jpeg",
-        "category": "Others"
+        "image": "\/images\/dishes\/onion-paratha.jpeg",
+        "category": "Others",
+        "slug": "onion-parantha"
     },
     {
         "name": "Oreo Kulfi",
-        "image": "/images/dishes/oreo-kulfi.jpeg",
-        "category": "Others"
+        "image": "\/images\/dishes\/oreo-kulfi.jpeg",
+        "category": "Others",
+        "slug": "oreo-kulfi"
     },
     {
         "name": "Oothappam (Mix Veg)",
-        "image": "/images/dishes/oothappam.jpeg",
-        "category": "Others"
+        "image": "\/images\/dishes\/oothappam.jpeg",
+        "category": "Others",
+        "slug": "oothappam-mix-veg"
     },
     {
         "name": "Pav Bhaji",
-        "image": "/images/dishes/pav-bhaji.jpeg",
-        "category": "Others"
+        "image": "\/images\/dishes\/pav-bhaji.jpeg",
+        "category": "Others",
+        "slug": "pav-bhaji"
     },
     {
         "name": "Paneer Butter Masala",
-        "image": "/images/dishes/paneer-butter-masala.jpeg",
-        "category": "Main Course"
+        "image": "\/images\/dishes\/paneer-butter-masala.jpeg",
+        "category": "Main Course",
+        "slug": "paneer-butter-masala"
     },
     {
         "name": "Palak Paneer",
-        "image": "/images/dishes/palak-paneer.jpeg",
-        "category": "Main Course"
+        "image": "\/images\/dishes\/palak-paneer.jpeg",
+        "category": "Main Course",
+        "slug": "palak-paneer"
     },
     {
         "name": "Poha",
-        "image": "/images/dishes/poha.jpeg",
-        "category": "Others"
+        "image": "\/images\/dishes\/poha.jpeg",
+        "category": "Others",
+        "slug": "poha"
     },
     {
         "name": "Pani Puri",
-        "image": "/images/dishes/pani-puri.jpeg",
-        "category": "Others"
+        "image": "\/images\/dishes\/pani-puri.jpeg",
+        "category": "Others",
+        "slug": "pani-puri"
     },
     {
         "name": "Paratha (Stuffed Aloo)",
-        "image": "/images/dishes/aloo-paratha.jpeg",
-        "category": "Others"
+        "image": "\/images\/dishes\/aloo-paratha.jpeg",
+        "category": "Others",
+        "slug": "paratha-stuffed-aloo"
     },
     {
         "name": "Pesarattu",
-        "image": "/images/dishes/pesarattu.jpeg",
-        "category": "Others"
+        "image": "\/images\/dishes\/pesarattu.jpeg",
+        "category": "Others",
+        "slug": "pesarattu"
     },
     {
         "name": "Prawn Curry",
-        "image": "/images/dishes/prawn-curry.jpeg",
-        "category": "Others"
+        "image": "\/images\/dishes\/prawn-curry.jpeg",
+        "category": "Others",
+        "slug": "prawn-curry"
     },
     {
         "name": "Pineapple Raita",
-        "image": "/images/dishes/pineapple-raita.jpeg",
-        "category": "Others"
+        "image": "\/images\/dishes\/pineapple-raita.jpeg",
+        "category": "Others",
+        "slug": "pineapple-raita"
     },
     {
         "name": "Puran Poli",
-        "image": "/images/dishes/puran-poli.jpeg",
-        "category": "Others"
+        "image": "\/images\/dishes\/puran-poli.jpeg",
+        "category": "Others",
+        "slug": "puran-poli"
     },
     {
         "name": "Peanut Chikki",
-        "image": "/images/dishes/peanut-chikki.jpeg",
-        "category": "Others"
+        "image": "\/images\/dishes\/peanut-chikki.jpeg",
+        "category": "Others",
+        "slug": "peanut-chikki"
     },
     {
         "name": "Pudina Chutney",
-        "image": "/images/dishes/pudina-chutney.jpeg",
-        "category": "Others"
+        "image": "\/images\/dishes\/pudina-chutney.jpeg",
+        "category": "Others",
+        "slug": "pudina-chutney"
     },
     {
         "name": "Pasta",
-        "image": "/images/dishes/pasta.jpeg",
-        "category": "Others"
+        "image": "\/images\/dishes\/pasta.jpeg",
+        "category": "Others",
+        "slug": "pasta"
     },
     {
         "name": "Pineapple Sheera",
-        "image": "/images/dishes/pineapple-sheera.jpeg",
-        "category": "Others"
+        "image": "\/images\/dishes\/pineapple-sheera.jpeg",
+        "category": "Others",
+        "slug": "pineapple-sheera"
     },
     {
         "name": "Paya Soup",
-        "image": "/images/dishes/paya-soup.jpeg",
-        "category": "Others"
+        "image": "\/images\/dishes\/paya-soup.jpeg",
+        "category": "Others",
+        "slug": "paya-soup"
     },
     {
         "name": "Papdi Chaat",
-        "image": "/images/dishes/papdi-chaat.jpeg",
-        "category": "Snacks"
+        "image": "\/images\/dishes\/papdi-chaat.jpeg",
+        "category": "Snacks",
+        "slug": "papdi-chaat"
     },
     {
         "name": "Quinoa Khichdi",
-        "image": "/images/dishes/quinoa-khichdi.jpeg",
-        "category": "Others"
+        "image": "\/images\/dishes\/quinoa-khichdi.jpeg",
+        "category": "Others",
+        "slug": "quinoa-khichdi"
     },
     {
         "name": "Quinoa Upma",
-        "image": "/images/dishes/quinoa-upma.jpeg",
-        "category": "Others"
+        "image": "\/images\/dishes\/quinoa-upma.jpeg",
+        "category": "Others",
+        "slug": "quinoa-upma"
     },
     {
         "name": "Quinoa Salad",
-        "image": "/images/dishes/quinoa-salad.jpeg",
-        "category": "Others"
+        "image": "\/images\/dishes\/quinoa-salad.jpeg",
+        "category": "Others",
+        "slug": "quinoa-salad"
     },
     {
         "name": "Quinoa Biryani",
-        "image": "/images/dishes/quinoa-biryani.jpeg",
-        "category": "Biryani & Rice"
+        "image": "\/images\/dishes\/quinoa-biryani.jpeg",
+        "category": "Biryani & Rice",
+        "slug": "quinoa-biryani"
     },
     {
         "name": "Quinoa Idli",
-        "image": "/images/dishes/quinoa-idli.jpeg",
-        "category": "Others"
+        "image": "\/images\/dishes\/quinoa-idli.jpeg",
+        "category": "Others",
+        "slug": "quinoa-idli"
     },
     {
         "name": "Quinoa Cutlet",
-        "image": "/images/dishes/quinoa-cutlet.jpeg",
-        "category": "Others"
+        "image": "\/images\/dishes\/quinoa-cutlet.jpeg",
+        "category": "Others",
+        "slug": "quinoa-cutlet"
     },
     {
         "name": "Qorma (Mutton)",
-        "image": "/images/dishes/mutton-qorma.jpeg",
-        "category": "Others"
+        "image": "\/images\/dishes\/mutton-qorma.jpeg",
+        "category": "Others",
+        "slug": "qorma-mutton"
     },
     {
         "name": "Qeema Paratha",
-        "image": "/images/dishes/qeema-paratha.jpeg",
-        "category": "Others"
+        "image": "\/images\/dishes\/qeema-paratha.jpeg",
+        "category": "Others",
+        "slug": "qeema-paratha"
     },
     {
         "name": "Qubani ka Meetha",
-        "image": "/images/dishes/qubani-ka-meetha.jpeg",
-        "category": "Others"
+        "image": "\/images\/dishes\/qubani-ka-meetha.jpeg",
+        "category": "Others",
+        "slug": "qubani-ka-meetha"
     },
     {
         "name": "Quick Oats Dosa",
-        "image": "/images/dishes/quick-oats-dosa.jpeg",
-        "category": "Others"
+        "image": "\/images\/dishes\/quick-oats-dosa.jpeg",
+        "category": "Others",
+        "slug": "quick-oats-dosa"
     },
     {
         "name": "Quick Tamarind Rice",
-        "image": "/images/dishes/quick-tamarind-rice.jpeg",
-        "category": "Biryani & Rice"
+        "image": "\/images\/dishes\/quick-tamarind-rice.jpeg",
+        "category": "Biryani & Rice",
+        "slug": "quick-tamarind-rice"
     },
     {
         "name": "Quick Paneer Stir Fry",
-        "image": "/images/dishes/quick-paneer-stirfry.jpeg",
-        "category": "Main Course"
+        "image": "\/images\/dishes\/quick-paneer-stirfry.jpeg",
+        "category": "Main Course",
+        "slug": "quick-paneer-stir-fry"
     },
     {
         "name": "Quick Rasam",
-        "image": "/images/dishes/quick-rasam.jpeg",
-        "category": "Others"
+        "image": "\/images\/dishes\/quick-rasam.jpeg",
+        "category": "Others",
+        "slug": "quick-rasam"
     },
     {
         "name": "Quick Suji Halwa",
-        "image": "/images/dishes/quick-suji-halwa.jpeg",
-        "category": "Desserts"
+        "image": "\/images\/dishes\/quick-suji-halwa.jpeg",
+        "category": "Desserts",
+        "slug": "quick-suji-halwa"
     },
     {
         "name": "Quinoa Pongal",
-        "image": "/images/dishes/quinoa-pongal.jpeg",
-        "category": "Others"
+        "image": "\/images\/dishes\/quinoa-pongal.jpeg",
+        "category": "Others",
+        "slug": "quinoa-pongal"
     },
     {
         "name": "Quick Veg Sandwich",
-        "image": "/images/dishes/quick-veg-sandwich.jpeg",
-        "category": "Others"
+        "image": "\/images\/dishes\/quick-veg-sandwich.jpeg",
+        "category": "Others",
+        "slug": "quick-veg-sandwich"
     },
     {
         "name": "Rajma Chawal",
-        "image": "/images/dishes/rajma-chawal.jpeg",
-        "category": "Others"
+        "image": "\/images\/dishes\/rajma-chawal.jpeg",
+        "category": "Others",
+        "slug": "rajma-chawal"
     },
     {
         "name": "Rava Dosa",
-        "image": "/images/dishes/rava-dosa.jpeg",
-        "category": "Others"
+        "image": "\/images\/dishes\/rava-dosa.jpeg",
+        "category": "Others",
+        "slug": "rava-dosa"
     },
     {
         "name": "Rasgulla",
-        "image": "/images/dishes/rasgulla.jpeg",
-        "category": "Others"
+        "image": "\/images\/dishes\/rasgulla.jpeg",
+        "category": "Others",
+        "slug": "rasgulla"
     },
     {
         "name": "Rasmalai",
-        "image": "/images/dishes/rasmalai.jpeg",
-        "category": "Others"
+        "image": "\/images\/dishes\/rasmalai.jpeg",
+        "category": "Others",
+        "slug": "rasmalai"
     },
     {
         "name": "Rabri",
-        "image": "/images/dishes/rabri.jpeg",
-        "category": "Others"
+        "image": "\/images\/dishes\/rabri.jpeg",
+        "category": "Others",
+        "slug": "rabri"
     },
     {
         "name": "Raita (Boondi)",
-        "image": "/images/dishes/boondi-raita.jpeg",
-        "category": "Others"
+        "image": "\/images\/dishes\/boondi-raita.jpeg",
+        "category": "Others",
+        "slug": "raita-boondi"
     },
     {
         "name": "Rava Upma",
-        "image": "/images/dishes/rava-upma.jpeg",
-        "category": "Others"
+        "image": "\/images\/dishes\/rava-upma.jpeg",
+        "category": "Others",
+        "slug": "rava-upma"
     },
     {
         "name": "Roti",
-        "image": "/images/dishes/roti.jpeg",
-        "category": "Others"
+        "image": "\/images\/dishes\/roti.jpeg",
+        "category": "Others",
+        "slug": "roti"
     },
     {
         "name": "Rumali Roti",
-        "image": "/images/dishes/rumali-roti.jpeg",
-        "category": "Others"
+        "image": "\/images\/dishes\/rumali-roti.jpeg",
+        "category": "Others",
+        "slug": "rumali-roti"
     },
     {
         "name": "Ragi Dosa",
-        "image": "/images/dishes/ragi-dosa.jpeg",
-        "category": "Others"
+        "image": "\/images\/dishes\/ragi-dosa.jpeg",
+        "category": "Others",
+        "slug": "ragi-dosa"
     },
     {
         "name": "Rava Idli",
-        "image": "/images/dishes/rava-idli.jpeg",
-        "category": "Others"
+        "image": "\/images\/dishes\/rava-idli.jpeg",
+        "category": "Others",
+        "slug": "rava-idli"
     },
     {
         "name": "Rava Kesari",
-        "image": "/images/dishes/rava-kesari.jpeg",
-        "category": "Others"
+        "image": "\/images\/dishes\/rava-kesari.jpeg",
+        "category": "Others",
+        "slug": "rava-kesari"
     },
     {
         "name": "Rogan Josh",
-        "image": "/images/dishes/rogan-josh.jpeg",
-        "category": "Others"
+        "image": "\/images\/dishes\/rogan-josh.jpeg",
+        "category": "Others",
+        "slug": "rogan-josh"
     },
     {
         "name": "Roti Pizza",
-        "image": "/images/dishes/roti-pizza.jpeg",
-        "category": "Others"
+        "image": "\/images\/dishes\/roti-pizza.jpeg",
+        "category": "Others",
+        "slug": "roti-pizza"
     },
     {
         "name": "Rasam",
-        "image": "/images/dishes/rasam.jpeg",
-        "category": "Others"
+        "image": "\/images\/dishes\/rasam.jpeg",
+        "category": "Others",
+        "slug": "rasam"
     },
     {
         "name": "Ragda Pattice",
-        "image": "/images/dishes/ragda-pattice.jpeg",
-        "category": "Others"
+        "image": "\/images\/dishes\/ragda-pattice.jpeg",
+        "category": "Others",
+        "slug": "ragda-pattice"
     },
     {
         "name": "Samosa",
-        "image": "/images/dishes/samosa.jpeg",
-        "category": "Snacks"
+        "image": "\/images\/dishes\/samosa.jpeg",
+        "category": "Snacks",
+        "slug": "samosa"
     },
     {
         "name": "Sabudana Khichdi",
-        "image": "/images/dishes/sabudana-khichdi.jpeg",
-        "category": "Others"
+        "image": "\/images\/dishes\/sabudana-khichdi.jpeg",
+        "category": "Others",
+        "slug": "sabudana-khichdi"
     },
     {
         "name": "Sarson Da Saag",
-        "image": "/images/dishes/sarson-da-saag.jpeg",
-        "category": "Others"
+        "image": "\/images\/dishes\/sarson-da-saag.jpeg",
+        "category": "Others",
+        "slug": "sarson-da-saag"
     },
     {
         "name": "Sev Puri",
-        "image": "/images/dishes/sev-puri.jpeg",
-        "category": "Others"
+        "image": "\/images\/dishes\/sev-puri.jpeg",
+        "category": "Others",
+        "slug": "sev-puri"
     },
     {
         "name": "Shahi Paneer",
-        "image": "/images/dishes/shahi-paneer.jpeg",
-        "category": "Main Course"
+        "image": "\/images\/dishes\/shahi-paneer.jpeg",
+        "category": "Main Course",
+        "slug": "shahi-paneer"
     },
     {
         "name": "Sheera",
-        "image": "/images/dishes/sheera.jpeg",
-        "category": "Others"
+        "image": "\/images\/dishes\/sheera.jpeg",
+        "category": "Others",
+        "slug": "sheera"
     },
     {
         "name": "Spring Rolls",
-        "image": "/images/dishes/spring-rolls.jpeg",
-        "category": "Others"
+        "image": "\/images\/dishes\/spring-rolls.jpeg",
+        "category": "Others",
+        "slug": "spring-rolls"
     },
     {
         "name": "Stuffed Paratha",
-        "image": "/images/dishes/stuffed-paratha.jpeg",
-        "category": "Others"
+        "image": "\/images\/dishes\/stuffed-paratha.jpeg",
+        "category": "Others",
+        "slug": "stuffed-paratha"
     },
     {
         "name": "Sweet Corn Soup",
-        "image": "/images/dishes/sweet-corn-soup.jpeg",
-        "category": "Desserts"
+        "image": "\/images\/dishes\/sweet-corn-soup.jpeg",
+        "category": "Desserts",
+        "slug": "sweet-corn-soup"
     },
     {
         "name": "Schezwan Noodles",
-        "image": "/images/dishes/schezwan-noodles.jpeg",
-        "category": "Others"
+        "image": "\/images\/dishes\/schezwan-noodles.jpeg",
+        "category": "Others",
+        "slug": "schezwan-noodles"
     },
     {
         "name": "Sabzi Pulao",
-        "image": "/images/dishes/sabzi-pulao.jpeg",
-        "category": "Others"
+        "image": "\/images\/dishes\/sabzi-pulao.jpeg",
+        "category": "Others",
+        "slug": "sabzi-pulao"
     },
     {
         "name": "Soya Chaap",
-        "image": "/images/dishes/soya-chaap.jpeg",
-        "category": "Others"
+        "image": "\/images\/dishes\/soya-chaap.jpeg",
+        "category": "Others",
+        "slug": "soya-chaap"
     },
     {
         "name": "Sambar",
-        "image": "/images/dishes/sambar.jpeg",
-        "category": "Others"
+        "image": "\/images\/dishes\/sambar.jpeg",
+        "category": "Others",
+        "slug": "sambar"
     },
     {
         "name": "Sattu Drink",
-        "image": "/images/dishes/sattu-drink.jpeg",
-        "category": "Others"
+        "image": "\/images\/dishes\/sattu-drink.jpeg",
+        "category": "Others",
+        "slug": "sattu-drink"
     },
     {
         "name": "Sandesh",
-        "image": "/images/dishes/sandesh.jpeg",
-        "category": "Others"
+        "image": "\/images\/dishes\/sandesh.jpeg",
+        "category": "Others",
+        "slug": "sandesh"
     },
     {
         "name": "Sukha Chicken",
-        "image": "/images/dishes/sukha-chicken.jpeg",
-        "category": "Others"
+        "image": "\/images\/dishes\/sukha-chicken.jpeg",
+        "category": "Others",
+        "slug": "sukha-chicken"
     },
     {
         "name": "Tandoori Chicken",
-        "image": "/images/dishes/chicken-tandoori.jpeg",
-        "category": "Others"
+        "image": "\/images\/dishes\/chicken-tandoori.jpeg",
+        "category": "Others",
+        "slug": "tandoori-chicken"
     },
     {
         "name": "Tandoori Roti",
-        "image": "/images/dishes/tandoori-roti.jpeg",
-        "category": "Others"
+        "image": "\/images\/dishes\/tandoori-roti.jpeg",
+        "category": "Others",
+        "slug": "tandoori-roti"
     },
     {
         "name": "Tomato Soup",
-        "image": "/images/dishes/tomato-soup.jpeg",
-        "category": "Others"
+        "image": "\/images\/dishes\/tomato-soup.jpeg",
+        "category": "Others",
+        "slug": "tomato-soup"
     },
     {
         "name": "Thali",
-        "image": "/images/dishes/indian-thali.jpeg",
-        "category": "Indian Thali"
+        "image": "\/images\/dishes\/indian-thali.jpeg",
+        "category": "Indian Thali",
+        "slug": "thali"
     },
     {
         "name": "Thalipeeth",
-        "image": "/images/dishes/thalipeeth.jpeg",
-        "category": "Indian Thali"
+        "image": "\/images\/dishes\/thalipeeth.jpeg",
+        "category": "Indian Thali",
+        "slug": "thalipeeth"
     },
     {
         "name": "Tikka Masala",
-        "image": "/images/dishes/tikka-masala.jpeg",
-        "category": "Main Course"
+        "image": "\/images\/dishes\/tikka-masala.jpeg",
+        "category": "Main Course",
+        "slug": "tikka-masala"
     },
     {
         "name": "Tamarind Rice",
-        "image": "/images/dishes/tamarind-rice.jpeg",
-        "category": "Biryani & Rice"
+        "image": "\/images\/dishes\/tamarind-rice.jpeg",
+        "category": "Biryani & Rice",
+        "slug": "tamarind-rice"
     },
     {
         "name": "Tandoori Momos",
-        "image": "/images/dishes/tandoori-momos.jpeg",
-        "category": "Snacks"
+        "image": "\/images\/dishes\/tandoori-momos.jpeg",
+        "category": "Snacks",
+        "slug": "tandoori-momos"
     },
     {
         "name": "Tandoori Paneer",
-        "image": "/images/dishes/tandoori-paneer.jpeg",
-        "category": "Main Course"
+        "image": "\/images\/dishes\/tandoori-paneer.jpeg",
+        "category": "Main Course",
+        "slug": "tandoori-paneer"
     },
     {
         "name": "Tandoori Fish",
-        "image": "/images/dishes/tandoori-fish.jpeg",
-        "category": "Others"
+        "image": "\/images\/dishes\/tandoori-fish.jpeg",
+        "category": "Others",
+        "slug": "tandoori-fish"
     },
     {
         "name": "Tutti Frutti Ice Cream",
-        "image": "/images/dishes/tutti-frutti.jpeg",
-        "category": "Desserts"
+        "image": "\/images\/dishes\/tutti-frutti.jpeg",
+        "category": "Desserts",
+        "slug": "tutti-frutti-ice-cream"
     },
     {
         "name": "Tofu Bhurji",
-        "image": "/images/dishes/tofu-bhurji.jpeg",
-        "category": "Others"
+        "image": "\/images\/dishes\/tofu-bhurji.jpeg",
+        "category": "Others",
+        "slug": "tofu-bhurji"
     },
     {
         "name": "Tamarind Chutney",
-        "image": "/images/dishes/tamarind-chutney.jpeg",
-        "category": "Others"
+        "image": "\/images\/dishes\/tamarind-chutney.jpeg",
+        "category": "Others",
+        "slug": "tamarind-chutney"
     },
     {
         "name": "Tandoori Mushroom",
-        "image": "/images/dishes/tandoori-mushroom.jpeg",
-        "category": "Others"
+        "image": "\/images\/dishes\/tandoori-mushroom.jpeg",
+        "category": "Others",
+        "slug": "tandoori-mushroom"
     },
     {
         "name": "Tilgul Ladoo",
-        "image": "/images/dishes/tilgul-ladoo.jpeg",
-        "category": "Others"
+        "image": "\/images\/dishes\/tilgul-ladoo.jpeg",
+        "category": "Others",
+        "slug": "tilgul-ladoo"
     },
     {
         "name": "Tender Coconut Pudding",
-        "image": "/images/dishes/tender-coconut-pudding.jpeg",
-        "category": "Others"
+        "image": "\/images\/dishes\/tender-coconut-pudding.jpeg",
+        "category": "Others",
+        "slug": "tender-coconut-pudding"
     },
     {
         "name": "Upma",
-        "image": "/images/dishes/upma.jpeg",
-        "category": "Others"
+        "image": "\/images\/dishes\/upma.jpeg",
+        "category": "Others",
+        "slug": "upma"
     },
     {
         "name": "Uttapam",
-        "image": "/images/dishes/uttapam.jpeg",
-        "category": "Others"
+        "image": "\/images\/dishes\/uttapam.jpeg",
+        "category": "Others",
+        "slug": "uttapam"
     },
     {
         "name": "Undhiyu",
-        "image": "/images/dishes/undhiyu.jpeg",
-        "category": "Others"
+        "image": "\/images\/dishes\/undhiyu.jpeg",
+        "category": "Others",
+        "slug": "undhiyu"
     },
     {
         "name": "Urad Dal",
-        "image": "/images/dishes/urad-dal.jpeg",
-        "category": "Main Course"
+        "image": "\/images\/dishes\/urad-dal.jpeg",
+        "category": "Main Course",
+        "slug": "urad-dal"
     },
     {
         "name": "Ulundhu Vadai",
-        "image": "/images/dishes/ulundhu-vadai.jpeg",
-        "category": "Others"
+        "image": "\/images\/dishes\/ulundhu-vadai.jpeg",
+        "category": "Others",
+        "slug": "ulundhu-vadai"
     },
     {
         "name": "Ulli Theeyal",
-        "image": "/images/dishes/ulli-theeyal.jpeg",
-        "category": "Others"
+        "image": "\/images\/dishes\/ulli-theeyal.jpeg",
+        "category": "Others",
+        "slug": "ulli-theeyal"
     },
     {
         "name": "Usal",
-        "image": "/images/dishes/usal.jpeg",
-        "category": "Others"
+        "image": "\/images\/dishes\/usal.jpeg",
+        "category": "Others",
+        "slug": "usal"
     },
     {
         "name": "Ugadi Pachadi",
-        "image": "/images/dishes/ugadi-pachadi.jpeg",
-        "category": "Others"
+        "image": "\/images\/dishes\/ugadi-pachadi.jpeg",
+        "category": "Others",
+        "slug": "ugadi-pachadi"
     },
     {
         "name": "Unniyappam",
-        "image": "/images/dishes/unniyappam.jpeg",
-        "category": "Others"
+        "image": "\/images\/dishes\/unniyappam.jpeg",
+        "category": "Others",
+        "slug": "unniyappam"
     },
     {
         "name": "Ulundu Kozhukattai",
-        "image": "/images/dishes/ulundu-kozhukattai.jpeg",
-        "category": "Others"
+        "image": "\/images\/dishes\/ulundu-kozhukattai.jpeg",
+        "category": "Others",
+        "slug": "ulundu-kozhukattai"
     },
     {
         "name": "Uppu Kozhukattai",
-        "image": "/images/dishes/uppu-kozhukattai.jpeg",
-        "category": "Others"
+        "image": "\/images\/dishes\/uppu-kozhukattai.jpeg",
+        "category": "Others",
+        "slug": "uppu-kozhukattai"
     },
     {
         "name": "Ulli Bajji",
-        "image": "/images/dishes/ulli-bajji.jpeg",
-        "category": "Others"
+        "image": "\/images\/dishes\/ulli-bajji.jpeg",
+        "category": "Others",
+        "slug": "ulli-bajji"
     },
     {
         "name": "Urad Dal Kachori",
-        "image": "/images/dishes/urad-dal-kachori.jpeg",
-        "category": "Main Course"
+        "image": "\/images\/dishes\/urad-dal-kachori.jpeg",
+        "category": "Main Course",
+        "slug": "urad-dal-kachori"
     },
     {
         "name": "Ulava Charu",
-        "image": "/images/dishes/ulava-charu.jpeg",
-        "category": "Others"
+        "image": "\/images\/dishes\/ulava-charu.jpeg",
+        "category": "Others",
+        "slug": "ulava-charu"
     },
     {
         "name": "Urad Dal Ladoo",
-        "image": "/images/dishes/urad-dal-ladoo.jpeg",
-        "category": "Main Course"
+        "image": "\/images\/dishes\/urad-dal-ladoo.jpeg",
+        "category": "Main Course",
+        "slug": "urad-dal-ladoo"
     },
     {
         "name": "Udon Noodles (Indian style)",
-        "image": "/images/dishes/udon-noodles.jpeg",
-        "category": "Indian Thali"
+        "image": "\/images\/dishes\/udon-noodles.jpeg",
+        "category": "Indian Thali",
+        "slug": "udon-noodles-indian-style"
     },
     {
         "name": "Vada Pav",
-        "image": "/images/dishes/vada-pav.jpeg",
-        "category": "Others"
+        "image": "\/images\/dishes\/vada-pav.jpeg",
+        "category": "Others",
+        "slug": "vada-pav"
     },
     {
         "name": "Vegetable Biryani",
-        "image": "/images/dishes/veg-biryani.jpeg",
-        "category": "Biryani & Rice"
+        "image": "\/images\/dishes\/veg-biryani.jpeg",
+        "category": "Biryani & Rice",
+        "slug": "vegetable-biryani"
     },
     {
         "name": "Vegetable Korma",
-        "image": "/images/dishes/veg-korma.jpeg",
-        "category": "Others"
+        "image": "\/images\/dishes\/veg-korma.jpeg",
+        "category": "Others",
+        "slug": "vegetable-korma"
     },
     {
         "name": "Vegetable Pulao",
-        "image": "/images/dishes/veg-pulao.jpeg",
-        "category": "Others"
+        "image": "\/images\/dishes\/veg-pulao.jpeg",
+        "category": "Others",
+        "slug": "vegetable-pulao"
     },
     {
         "name": "Vegetable Cutlet",
-        "image": "/images/dishes/veg-cutlet.jpeg",
-        "category": "Others"
+        "image": "\/images\/dishes\/veg-cutlet.jpeg",
+        "category": "Others",
+        "slug": "vegetable-cutlet"
     },
     {
         "name": "Vegetable Sandwich",
-        "image": "/images/dishes/veg-sandwich.jpeg",
-        "category": "Others"
+        "image": "\/images\/dishes\/veg-sandwich.jpeg",
+        "category": "Others",
+        "slug": "vegetable-sandwich"
     },
     {
         "name": "Vegetable Fried Rice",
-        "image": "/images/dishes/veg-fried-rice.jpeg",
-        "category": "Biryani & Rice"
+        "image": "\/images\/dishes\/veg-fried-rice.jpeg",
+        "category": "Biryani & Rice",
+        "slug": "vegetable-fried-rice"
     },
     {
         "name": "Vegetable Hakka Noodles",
-        "image": "/images/dishes/veg-hakka-noodles.jpeg",
-        "category": "Others"
+        "image": "\/images\/dishes\/veg-hakka-noodles.jpeg",
+        "category": "Others",
+        "slug": "vegetable-hakka-noodles"
     },
     {
         "name": "Vegetable Manchurian",
-        "image": "/images/dishes/veg-manchurian.jpeg",
-        "category": "Others"
+        "image": "\/images\/dishes\/veg-manchurian.jpeg",
+        "category": "Others",
+        "slug": "vegetable-manchurian"
     },
     {
         "name": "Vegetable Pakora",
-        "image": "/images/dishes/veg-pakora.jpeg",
-        "category": "Snacks"
+        "image": "\/images\/dishes\/veg-pakora.jpeg",
+        "category": "Snacks",
+        "slug": "vegetable-pakora"
     },
     {
         "name": "Vegetable Spring Rolls",
-        "image": "/images/dishes/veg-spring-rolls.jpeg",
-        "category": "Others"
+        "image": "\/images\/dishes\/veg-spring-rolls.jpeg",
+        "category": "Others",
+        "slug": "vegetable-spring-rolls"
     },
     {
         "name": "Vegetable Thali",
-        "image": "/images/dishes/veg-thali.jpeg",
-        "category": "Indian Thali"
+        "image": "\/images\/dishes\/veg-thali.jpeg",
+        "category": "Indian Thali",
+        "slug": "vegetable-thali"
     },
     {
         "name": "Vegetable Soup",
-        "image": "/images/dishes/veg-soup.jpeg",
-        "category": "Others"
+        "image": "\/images\/dishes\/veg-soup.jpeg",
+        "category": "Others",
+        "slug": "vegetable-soup"
     },
     {
         "name": "Vanilla Milkshake",
-        "image": "/images/dishes/vanilla-milkshake.jpeg",
-        "category": "Milkshakes"
+        "image": "\/images\/dishes\/vanilla-milkshake.jpeg",
+        "category": "Milkshakes",
+        "slug": "vanilla-milkshake"
     },
     {
         "name": "Veg Frankie",
-        "image": "/images/dishes/veg-frankie.jpeg",
-        "category": "Others"
+        "image": "\/images\/dishes\/veg-frankie.jpeg",
+        "category": "Others",
+        "slug": "veg-frankie"
     },
     {
         "name": "Vegetable Khichdi",
-        "image": "/images/dishes/veg-khichdi.jpeg",
-        "category": "Others"
+        "image": "\/images\/dishes\/veg-khichdi.jpeg",
+        "category": "Others",
+        "slug": "vegetable-khichdi"
     },
     {
         "name": "Wheat Dosa",
-        "image": "/images/dishes/wheat-dosa.jpeg",
-        "category": "Others"
+        "image": "\/images\/dishes\/wheat-dosa.jpeg",
+        "category": "Others",
+        "slug": "wheat-dosa"
     },
     {
         "name": "Wheat Upma",
-        "image": "/images/dishes/wheat-upma.jpeg",
-        "category": "Others"
+        "image": "\/images\/dishes\/wheat-upma.jpeg",
+        "category": "Others",
+        "slug": "wheat-upma"
     },
     {
         "name": "White Sauce Pasta",
-        "image": "/images/dishes/white-sauce-pasta.jpeg",
-        "category": "Others"
+        "image": "\/images\/dishes\/white-sauce-pasta.jpeg",
+        "category": "Others",
+        "slug": "white-sauce-pasta"
     },
     {
         "name": "Watermelon Juice",
-        "image": "/images/dishes/watermelon-juice.jpeg",
-        "category": "Fresh Juices"
+        "image": "\/images\/dishes\/watermelon-juice.jpeg",
+        "category": "Fresh Juices",
+        "slug": "watermelon-juice"
     },
     {
         "name": "Walnut Brownie",
-        "image": "/images/dishes/walnut-brownie.jpeg",
-        "category": "Others"
+        "image": "\/images\/dishes\/walnut-brownie.jpeg",
+        "category": "Others",
+        "slug": "walnut-brownie"
     },
     {
         "name": "Wheat Paratha",
-        "image": "/images/dishes/wheat-paratha.jpeg",
-        "category": "Others"
+        "image": "\/images\/dishes\/wheat-paratha.jpeg",
+        "category": "Others",
+        "slug": "wheat-paratha"
     },
     {
         "name": "Whole Moong Curry",
-        "image": "/images/dishes/whole-moong-curry.jpeg",
-        "category": "Others"
+        "image": "\/images\/dishes\/whole-moong-curry.jpeg",
+        "category": "Others",
+        "slug": "whole-moong-curry"
     },
     {
         "name": "Wheat Halwa",
-        "image": "/images/dishes/wheat-halwa.jpeg",
-        "category": "Desserts"
+        "image": "\/images\/dishes\/wheat-halwa.jpeg",
+        "category": "Desserts",
+        "slug": "wheat-halwa"
     },
     {
         "name": "Wasabi Paneer Tikka",
-        "image": "/images/dishes/wasabi-paneer.jpeg",
-        "category": "Main Course"
+        "image": "\/images\/dishes\/wasabi-paneer.jpeg",
+        "category": "Main Course",
+        "slug": "wasabi-paneer-tikka"
     },
     {
         "name": "White Rasgulla",
-        "image": "/images/dishes/white-rasgulla.jpeg",
-        "category": "Others"
+        "image": "\/images\/dishes\/white-rasgulla.jpeg",
+        "category": "Others",
+        "slug": "white-rasgulla"
     },
     {
         "name": "Water Chestnut Curry",
-        "image": "/images/dishes/water-chestnut-curry.jpeg",
-        "category": "Others"
+        "image": "\/images\/dishes\/water-chestnut-curry.jpeg",
+        "category": "Others",
+        "slug": "water-chestnut-curry"
     },
     {
         "name": "Wonton Soup (Indian-Chinese)",
-        "image": "/images/dishes/wonton-soup.jpeg",
-        "category": "Indian Thali"
+        "image": "\/images\/dishes\/wonton-soup.jpeg",
+        "category": "Indian Thali",
+        "slug": "wonton-soup-indian-chinese"
     },
     {
         "name": "Wheat Momos",
-        "image": "/images/dishes/wheat-momos.jpeg",
-        "category": "Snacks"
+        "image": "\/images\/dishes\/wheat-momos.jpeg",
+        "category": "Snacks",
+        "slug": "wheat-momos"
     },
     {
         "name": "Walnut Chutney",
-        "image": "/images/dishes/walnut-chutney.jpeg",
-        "category": "Others"
+        "image": "\/images\/dishes\/walnut-chutney.jpeg",
+        "category": "Others",
+        "slug": "walnut-chutney"
     },
     {
         "name": "Wheat Paniyaram",
-        "image": "/images/dishes/wheat-paniyaram.jpeg",
-        "category": "Others"
+        "image": "\/images\/dishes\/wheat-paniyaram.jpeg",
+        "category": "Others",
+        "slug": "wheat-paniyaram"
     },
     {
         "name": "White Chocolate Mousse",
-        "image": "/images/dishes/white-chocolate-mousse.jpeg",
-        "category": "Others"
+        "image": "\/images\/dishes\/white-chocolate-mousse.jpeg",
+        "category": "Others",
+        "slug": "white-chocolate-mousse"
     },
     {
         "name": "Xmas Plum Cake",
-        "image": "/images/dishes/xmas-plum-cake.jpeg",
-        "category": "Desserts"
+        "image": "\/images\/dishes\/xmas-plum-cake.jpeg",
+        "category": "Desserts",
+        "slug": "xmas-plum-cake"
     },
     {
         "name": "XOXO Chocolate Tart",
-        "image": "/images/dishes/xoxo-chocolate.jpeg",
-        "category": "Others"
+        "image": "\/images\/dishes\/xoxo-chocolate.jpeg",
+        "category": "Others",
+        "slug": "xoxo-chocolate-tart"
     },
     {
         "name": "Yakhni Pulao",
-        "image": "/images/dishes/yakhni-pulao.jpeg",
-        "category": "Others"
+        "image": "\/images\/dishes\/yakhni-pulao.jpeg",
+        "category": "Others",
+        "slug": "yakhni-pulao"
     },
     {
         "name": "Yam Curry",
-        "image": "/images/dishes/yam-curry.jpeg",
-        "category": "Others"
+        "image": "\/images\/dishes\/yam-curry.jpeg",
+        "category": "Others",
+        "slug": "yam-curry"
     },
     {
         "name": "Yogurt Rice",
-        "image": "/images/dishes/yogurt-rice.jpeg",
-        "category": "Biryani & Rice"
+        "image": "\/images\/dishes\/yogurt-rice.jpeg",
+        "category": "Biryani & Rice",
+        "slug": "yogurt-rice"
     },
     {
         "name": "Yellow Dal Tadka",
-        "image": "/images/dishes/yellow-dal.jpeg",
-        "category": "Main Course"
+        "image": "\/images\/dishes\/yellow-dal.jpeg",
+        "category": "Main Course",
+        "slug": "yellow-dal-tadka"
     },
     {
         "name": "Yam Cutlet",
-        "image": "/images/dishes/yam-cutlet.jpeg",
-        "category": "Others"
+        "image": "\/images\/dishes\/yam-cutlet.jpeg",
+        "category": "Others",
+        "slug": "yam-cutlet"
     },
     {
         "name": "Yoghurt Parfait",
-        "image": "/images/dishes/yoghurt-parfait.jpeg",
-        "category": "Others"
+        "image": "\/images\/dishes\/yoghurt-parfait.jpeg",
+        "category": "Others",
+        "slug": "yoghurt-parfait"
     },
     {
         "name": "Yellow Moong Dal Khichdi",
-        "image": "/images/dishes/moongdal-khichdi.jpeg",
-        "category": "Main Course"
+        "image": "\/images\/dishes\/moongdal-khichdi.jpeg",
+        "category": "Main Course",
+        "slug": "yellow-moong-dal-khichdi"
     },
     {
         "name": "Yam Masala Fry",
-        "image": "/images/dishes/yam-fry.jpeg",
-        "category": "Main Course"
+        "image": "\/images\/dishes\/yam-fry.jpeg",
+        "category": "Main Course",
+        "slug": "yam-masala-fry"
     },
     {
         "name": "Yogurt Lassi",
-        "image": "/images/dishes/yogurt-lassi.jpeg",
-        "category": "Drinks & Beverages"
+        "image": "\/images\/dishes\/yogurt-lassi.jpeg",
+        "category": "Drinks & Beverages",
+        "slug": "yogurt-lassi"
     },
     {
         "name": "Yam Tikki",
-        "image": "/images/dishes/yam-tikki.jpeg",
-        "category": "Others"
+        "image": "\/images\/dishes\/yam-tikki.jpeg",
+        "category": "Others",
+        "slug": "yam-tikki"
     },
     {
         "name": "Yogurt Kadhi",
-        "image": "/images/dishes/yogurt-kadhi.jpeg",
-        "category": "Others"
+        "image": "\/images\/dishes\/yogurt-kadhi.jpeg",
+        "category": "Others",
+        "slug": "yogurt-kadhi"
     },
     {
         "name": "Yellow Rice with Peas",
-        "image": "/images/dishes/yellow-rice-peas.jpeg",
-        "category": "Biryani & Rice"
+        "image": "\/images\/dishes\/yellow-rice-peas.jpeg",
+        "category": "Biryani & Rice",
+        "slug": "yellow-rice-with-peas"
     },
     {
         "name": "Yuzu Lemonade",
-        "image": "/images/dishes/yuzu-lemonade.jpeg",
-        "category": "Drinks & Beverages"
+        "image": "\/images\/dishes\/yuzu-lemonade.jpeg",
+        "category": "Drinks & Beverages",
+        "slug": "yuzu-lemonade"
     },
     {
         "name": "Yam Bharta",
-        "image": "/images/dishes/yam-bharta.jpeg",
-        "category": "Others"
+        "image": "\/images\/dishes\/yam-bharta.jpeg",
+        "category": "Others",
+        "slug": "yam-bharta"
     },
     {
         "name": "Yakhni Shorba",
-        "image": "/images/dishes/yakhni-shorba.jpeg",
-        "category": "Others"
+        "image": "\/images\/dishes\/yakhni-shorba.jpeg",
+        "category": "Others",
+        "slug": "yakhni-shorba"
     },
     {
         "name": "Yoghurt Mango Delight",
-        "image": "/images/dishes/yoghurt-mango-delight.jpeg",
-        "category": "Others"
+        "image": "\/images\/dishes\/yoghurt-mango-delight.jpeg",
+        "category": "Others",
+        "slug": "yoghurt-mango-delight"
     },
     {
         "name": "Zarda Pulao",
-        "image": "/images/dishes/zarda-pulao.jpeg",
-        "category": "Others"
+        "image": "\/images\/dishes\/zarda-pulao.jpeg",
+        "category": "Others",
+        "slug": "zarda-pulao"
     },
     {
         "name": "Zafrani Biryani",
-        "image": "/images/dishes/zafrani-biryani.jpeg",
-        "category": "Biryani & Rice"
+        "image": "\/images\/dishes\/zafrani-biryani.jpeg",
+        "category": "Biryani & Rice",
+        "slug": "zafrani-biryani"
     },
     {
         "name": "Zucchini Pakora",
-        "image": "/images/dishes/zucchini-pakora.jpeg",
-        "category": "Snacks"
+        "image": "\/images\/dishes\/zucchini-pakora.jpeg",
+        "category": "Snacks",
+        "slug": "zucchini-pakora"
     },
     {
         "name": "Zafrani Kheer",
-        "image": "/images/dishes/zafrani-kheer.jpeg",
-        "category": "Others"
+        "image": "\/images\/dishes\/zafrani-kheer.jpeg",
+        "category": "Others",
+        "slug": "zafrani-kheer"
     },
     {
         "name": "Zunka Bhakri",
-        "image": "/images/dishes/zunka-bhakri.jpeg",
-        "category": "Others"
+        "image": "\/images\/dishes\/zunka-bhakri.jpeg",
+        "category": "Others",
+        "slug": "zunka-bhakri"
     },
     {
         "name": "Zesty Lemon Chicken",
-        "image": "/images/dishes/zesty-lemon-chicken.jpeg",
-        "category": "Others"
+        "image": "\/images\/dishes\/zesty-lemon-chicken.jpeg",
+        "category": "Others",
+        "slug": "zesty-lemon-chicken"
     },
     {
         "name": "Zingy Paneer Wrap",
-        "image": "/images/dishes/zingy-paneer-wrap.jpeg",
-        "category": "Main Course"
+        "image": "\/images\/dishes\/zingy-paneer-wrap.jpeg",
+        "category": "Main Course",
+        "slug": "zingy-paneer-wrap"
     },
     {
         "name": "Zucchini Paratha",
-        "image": "/images/dishes/zucchini-paratha.jpeg",
-        "category": "Others"
+        "image": "\/images\/dishes\/zucchini-paratha.jpeg",
+        "category": "Others",
+        "slug": "zucchini-paratha"
     },
     {
         "name": "Zinger Veg Burger",
-        "image": "/images/dishes/zinger-veg-burger.jpeg",
-        "category": "Others"
+        "image": "\/images\/dishes\/zinger-veg-burger.jpeg",
+        "category": "Others",
+        "slug": "zinger-veg-burger"
     },
     {
         "name": "Zafrani Chai",
-        "image": "/images/dishes/zafrani-chai.jpeg",
-        "category": "Others"
+        "image": "\/images\/dishes\/zafrani-chai.jpeg",
+        "category": "Others",
+        "slug": "zafrani-chai"
     },
     {
         "name": "Zesty Mango Salad",
-        "image": "/images/dishes/zesty-mango-salad.jpeg",
-        "category": "Others"
+        "image": "\/images\/dishes\/zesty-mango-salad.jpeg",
+        "category": "Others",
+        "slug": "zesty-mango-salad"
     },
     {
         "name": "Zucchini Halwa",
-        "image": "/images/dishes/zucchini-halwa.jpeg",
-        "category": "Desserts"
+        "image": "\/images\/dishes\/zucchini-halwa.jpeg",
+        "category": "Desserts",
+        "slug": "zucchini-halwa"
     },
     {
         "name": "Zebra Cake",
-        "image": "/images/dishes/zebra-cake.jpeg",
-        "category": "Desserts"
+        "image": "\/images\/dishes\/zebra-cake.jpeg",
+        "category": "Desserts",
+        "slug": "zebra-cake"
     },
     {
         "name": "Zesty Mint Lemonade",
-        "image": "/images/dishes/zesty-mint-lemonade.jpeg",
-        "category": "Drinks & Beverages"
+        "image": "\/images\/dishes\/zesty-mint-lemonade.jpeg",
+        "category": "Drinks & Beverages",
+        "slug": "zesty-mint-lemonade"
     },
     {
         "name": "Zaatar Kulcha",
-        "image": "/images/dishes/zaatar-kulcha.jpeg",
-        "category": "Others"
+        "image": "\/images\/dishes\/zaatar-kulcha.jpeg",
+        "category": "Others",
+        "slug": "zaatar-kulcha"
     },
     {
         "name": "Zinger Chicken Momos",
-        "image": "/images/dishes/zinger-chicken-momos.jpeg",
-        "category": "Snacks"
+        "image": "\/images\/dishes\/zinger-chicken-momos.jpeg",
+        "category": "Snacks",
+        "slug": "zinger-chicken-momos"
+    },
+    {
+        "name": "Chicken Shwarma",
+        "slug": "chicken-shwarma",
+        "description": null,
+        "image": "images\/dishes\/1754411835_chicken-shwarma.jpeg"
     }
 ]

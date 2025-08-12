@@ -84,51 +84,75 @@
 </head>
 <body>
 
-@extends('layouts.app')
-
-@section('content')
 <div class="container">
-  <h2 class="section-heading" style="font-weight:1000;">
-    🍽️ Recommended Restaurants for <span class="text-danger">{{ $mealname }}</span><br>
+  <h2 class="section-heading fw-bold">
+    🍽️ Recommended Restaurants for <span class="text-danger">{{ $mealname }}</span>
     <div class="text-center mt-2 mb-4">
-  <span class="px-4 py-2 bg-white rounded-pill shadow-sm d-inline-flex align-items-center" style="font-weight: 500; font-size: 1rem;">
-    <i class="bi bi-geo-alt-fill me-2 text-danger"></i> 
-    <span class="text-dark">Serving in</span> 
-    <span class="ms-1 text-success">{{ ucwords(session('selected_city') ?? 'your city') }}</span>
-  </span>
-</div>
+      <span class="px-4 py-2 bg-white rounded-pill shadow-sm d-inline-flex align-items-center" style="font-weight: 500; font-size: 1rem;">
+        <i class="bi bi-geo-alt-fill me-2 text-danger"></i>
+        <span class="text-dark">Serving in</span>
+        <span class="ms-1 text-success">{{ ucwords(session('selected_city') ?? 'your city') }}</span>
+      </span>
+    </div>
   </h2>
 
-  @if ($restaurants->isEmpty())
-    <div class="alert alert-warning text-center">
-      😔 Sorry! No restaurants found serving <strong>{{ $mealname }}</strong>.
-    </div>
-  @else
-    <div class="row g-4">
-      @foreach ($restaurants as $restaurant)
-        <div class="col-md-6 col-lg-4">
-          <div class="restaurant-card position-relative cursor-pointer">
-            <div class="emoji-icon">🍛</div>
-            <div class="restaurant-name">{{ $restaurant->name }}</div>
-            <div class="restaurant-city">{{ $restaurant->city ?? 'City N/A' }}</div>
-            <p class="restaurant-address">{{ Str::limit($restaurant->address, 100) }}</p>
-            <div class="d-flex justify-content-between info-badges mt-3">
-              <span class="badge bg-success">✅ Fast Delivery</span>
-              <span class="badge bg-dark">⭐ {{ number_format($restaurant->rating ?? 4.0, 1) }}</span>
-            </div>
-            <a href="{{ route('restaurant.show', ['id' => $restaurant->id]) }}?meal={{ \Illuminate\Support\Str::slug($meal['name']) }}" class="btn btn-outline-success btn-sm mt-3">View Menu</a>
-          </div>
-        </div>
-      @endforeach
-    </div>
+  {{-- 🔍 Live Search Bar --}}
+  <div class="mb-4">
+    <input type="text" id="search-bar" class="form-control" placeholder="Search restaurants by name...">
+  </div>
 
-    {{-- 🔁 Pagination --}}
-    <div class="mt-5 d-flex">
-      {{ $restaurants->links('pagination::bootstrap-5') }}
-    </div>
-  @endif
+  {{-- 🔁 Restaurants List --}}
+  <div id="restaurant-list">
+    @if ($restaurants->isEmpty())
+      <div class="alert alert-warning text-center">
+        😔 No restaurants found serving <strong>{{ $mealname }}</strong>.
+      </div>
+    @else
+      <div class="row g-4">
+        @foreach ($restaurants as $restaurant)
+          <div class="col-md-6 col-lg-4 restaurant-box" data-name="{{ strtolower($restaurant->name) }}">
+            <div class="restaurant-card position-relative cursor-pointer">
+              <div class="emoji-icon">🍛</div>
+              <div class="restaurant-name">{{ $restaurant->name }}</div>
+              <div class="restaurant-city">{{ $restaurant->city ?? 'City N/A' }}</div>
+              <p class="restaurant-address">{{ Str::limit($restaurant->address, 100) }}</p>
+              <div class="d-flex justify-content-between info-badges mt-3">
+                <span class="badge bg-success">✅ Fast Delivery</span>
+                <span class="badge bg-dark">⭐ {{ number_format($restaurant->rating ?? 4.0, 1) }}</span>
+              </div>
+              <a href="{{ route('restaurant.show', ['id' => $restaurant->id]) }}?meal={{ \Str::slug($meal['name']) }}" class="btn btn-outline-success btn-sm mt-3">View Menu</a>
+            </div>
+          </div>
+        @endforeach
+      </div>
+
+      <div class="mt-5 d-flex justify-content-center">
+        {{ $restaurants->links('pagination::bootstrap-5') }}
+      </div>
+    @endif
+  </div>
 </div>
+
+{{-- 🔄 Live Search JS --}}
+<script>
+  const searchBar = document.getElementById('search-bar');
+  const allRestaurants = document.querySelectorAll('.restaurant-box');
+
+  searchBar.addEventListener('input', function () {
+    const keyword = this.value.toLowerCase().trim();
+
+    allRestaurants.forEach(box => {
+      const name = box.dataset.name;
+
+      if (name.includes(keyword)) {
+        box.style.display = 'block';
+      } else {
+        box.style.display = 'none';
+      }
+    });
+  });
+</script>
+
 
 </body>
 </html>
-@endsection

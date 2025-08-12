@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="csrf-token" content="{{ csrf_token() }}">
     <title>Home</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" integrity="sha384-tViUnnbYAV00FLIhhi3v/dWt3Jxw4gZQcNoSCxCIFNJVCx7/D55/wXsrNIRANwdD" crossorigin="anonymous">
@@ -511,7 +512,7 @@
             @csrf
         </form>
     @else
-        <button type="button" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#loginModal">
+        <button id="login-button" type="button" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#loginModal">
             Get In
         </button>
     @endif
@@ -554,12 +555,6 @@
 
 </header>
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="csrf-token" content="{{ csrf_token() }}">
-    <title>Voice Assistant</title>
     <style>
         #mic-icon {
     width: 50px;
@@ -597,68 +592,52 @@
     color: #222;
 }
 
+#assistant-ui {
+    position: fixed;
+    bottom: 24px;
+    right: 24px;
+    z-index: 9999;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 10px;
+}
+
+#assistant-response-box {
+    background: white;
+    color: #333;
+    padding: 12px 16px;
+    border-radius: 12px;
+    max-width: 250px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+    display: none;
+    border: 1px solid #eee;
+    font-size: 0.9rem;
+}
+
+#assistant-mic {
+    background: #ef4444;
+    color: white;
+    padding: 16px;
+    border-radius: 50%;
+    box-shadow: 0 4px 20px rgba(239, 68, 68, 0.4);
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    border: none;
+}
+
+#assistant-mic:hover {
+    transform: scale(1.1);
+    background: #dc2626;
+}
+
 
     </style>
 </head>
 <body>
 
-<div id="mic-icon" draggable="true">🎤</div>
-<div id="drop-zone">📞 Drop to Call</div>
-
-<script src="https://media.twiliocdn.com/sdk/js/client/v1.13/twilio.min.js"></script>
-
-<script>
-    const mic = document.getElementById('mic-icon');
-    const dropZone = document.getElementById('drop-zone');
-    const ringtone = document.getElementById('ringtone');
-
-    let device;
-
-    mic.addEventListener('dragstart', () => {
-        dropZone.style.display = 'flex';
-    });
-
-    dropZone.addEventListener('dragover', e => e.preventDefault());
-
-    dropZone.addEventListener('drop', async () => {
-        dropZone.style.display = 'none';
-
-        // Play ringtone for effect
-        ringtone.play();
-
-        // Delay to simulate ringing (2–3 seconds)
-        setTimeout(async () => {
-            ringtone.pause();
-            ringtone.currentTime = 0;
-
-            const res = await fetch('/voice-token');
-            const { token } = await res.json();
-
-            device = new Twilio.Device(token, { debug: false });
-
-            device.on('ready', () => {
-                console.log('Twilio.Device Ready! Calling...');
-                device.connect({ To: '+13618791271' }); // Dialogflow US number
-            });
-
-            device.on('connect', () => {
-                console.log('Call Connected');
-            });
-
-            device.on('disconnect', () => {
-                console.log('Call Ended');
-            });
-
-            device.on('error', error => {
-                alert('Twilio Error: ' + error.message);
-            });
-        }, 2500);
-    });
-</script>
 
 
-</body>
-</html>
 
 
 <script>

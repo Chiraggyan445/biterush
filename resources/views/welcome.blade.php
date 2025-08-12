@@ -4,55 +4,66 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>BiteRush</title>
-  <script>
-    setTimeout(function () {
-      window.location.href = "{{ url('/home') }}";
-    }, 2500);
-  </script>
   <style>
-    body {
+    html, body {
       margin: 0;
-      background: #fff9f2;
+      padding: 0;
+      width: 100%;
+      height: 100%;
+      overflow: hidden;
+      background: #000;
+      font-family: 'Segoe UI', sans-serif;
+    }
+
+    video {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100vw;
+      height: 100vh;
+      object-fit: cover;
+      z-index: 1;
+    }
+
+    .overlay-content {
+      position: relative;
+      z-index: 2;
+      width: 100%;
+      height: 100%;
       display: flex;
       align-items: center;
       justify-content: center;
-      height: 100vh;
+      text-align: center;
+      padding: 1rem;
+      box-sizing: border-box;
     }
 
-    img {
-      width: 400px;
-      animation: bounceInRotate 1.8s ease-in-out forwards,
-                 pulseGlow 1.8s ease-in-out 1.9s infinite;
-    }
-
-    @keyframes bounceInRotate {
-      0% {
-        opacity: 0;
-        transform: scale(0.3) rotate(-120deg);
-      }
-      50% {
-        opacity: 1;
-        transform: scale(1.05) rotate(15deg);
-      }
-      70% {
-        transform: scale(0.95) rotate(-5deg);
-      }
-      100% {
-        transform: scale(1) rotate(0deg);
-      }
-    }
-
-    @keyframes pulseGlow {
-      0%, 100% {
-        filter: drop-shadow(0 0 0px #ffa726);
-      }
-      50% {
-        filter: drop-shadow(0 0 20px #ff6f00);
-      }
+    .logo {
+      font-size: clamp(2rem, 10vw, 6rem);
+      font-weight: 900;
+      color: #FFC107;
+      text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.6);
+      line-height: 1.1;
     }
   </style>
 </head>
 <body>
-  <img src="{{ asset('images/biterush.png') }}" alt="BiteRush Logo">
+
+  <video id="splashVideo" autoplay muted playsinline>
+    <source src="{{ asset('videos/intro.mp4') }}" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+
+
+  <script>
+    document.getElementById('splashVideo').addEventListener('ended', function () {
+      window.location.href = "{{ url('/home') }}";
+    });
+
+    setTimeout(() => {
+      window.location.href = "{{ url('/home') }}";
+    }, 10000);
+  </script>
+
 </body>
 </html>

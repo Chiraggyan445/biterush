@@ -4,11 +4,18 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use Illuminate\Support\Str;
+use App\Models\Restaurant;
+use Illuminate\Support\Facades\Auth;
 
 class CategoryController extends Controller
 {
     public function showCategory($slug)
     {
+
+         if (!Auth::check()) {
+        return redirect('/home')->with('login_required', 'Please log in to continue.');
+    }
+
 
         $allMeals = json_decode(file_get_contents(public_path('js/allMeals.json')), true);
 

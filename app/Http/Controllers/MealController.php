@@ -13,8 +13,9 @@ class MealController extends Controller
 {
 
     if (!Auth::check()) {
-            return redirect('/home')->with('login_required', true);
-    }
+    return redirect()->back()->with('login_required', 'Please log in to continue.');
+}
+
 
     ini_set('max_execution_time', 60); 
 
@@ -38,21 +39,19 @@ class MealController extends Controller
     ]);
 }
 
-
 public function showRestaurants($slug)
 {
 
     if (!Auth::check()) {
-        return redirect('/home')->with('login_required', true);
-    }
+    return redirect()->back()->with('login_required', 'Please log in to continue.');
+}
+
 
     $selectedCity = session('selected_city');
-
     if (!$selectedCity) {
         return redirect()->route('search')->with('error', 'Please select a city first.');
     }
 
-    // Load and locate the meal
     $meals = collect(json_decode(file_get_contents(public_path('js/allMeals.json')), true))
         ->map(function ($meal) {
             $meal['slug'] = Str::slug($meal['name']);
@@ -60,31 +59,31 @@ public function showRestaurants($slug)
         });
 
     $meal = $meals->firstWhere('slug', $slug);
-
     if (!$meal) {
         return redirect()->route('all-meals')->with('error', 'Meal not found.');
     }
 
     $mealName = strtolower($meal['name']);
     $keywords = array_filter(explode(' ', $mealName));
+    $searchQuery = strtolower(request('search'));
 
-    // Use JOIN to avoid large IN clause
-    $restaurants = Restaurant::select('restaurants.*')
+    $query = Restaurant::select('restaurants.*')
         ->join('menu_items', 'menu_items.restaurant_id', '=', 'restaurants.id')
         ->where('restaurants.status', 'active')
         ->whereRaw('LOWER(restaurants.cityname) = ?', [strtolower($selectedCity)])
-        ->where(function ($query) use ($mealName, $keywords) {
-            $query->whereRaw('LOWER(menu_items.meal_name) LIKE ?', ["%$mealName%"]); // Exact match
-
+        ->where(function ($q) use ($mealName, $keywords) {
+            $q->whereRaw('LOWER(menu_items.meal_name) LIKE ?', ["%$mealName%"]);
             foreach ($keywords as $word) {
-                $query->orWhereRaw('LOWER(menu_items.meal_name) LIKE ?', ["%$word%"]); // Keyword match
+                $q->orWhereRaw('LOWER(menu_items.meal_name) LIKE ?', ["%$word%"]);
             }
-        })
-        ->distinct() // Avoid groupBy errors
-        ->orderByDesc('restaurants.rating')
-        ->get();
+        });
 
-    // Manual pagination
+    if (!empty($searchQuery)) {
+        $query->whereRaw('LOWER(restaurants.name) LIKE ?', ["%$searchQuery%"]);
+    }
+
+    $restaurants = $query->distinct()->orderByDesc('restaurants.rating')->get();
+
     $perPage = 12;
     $page = request()->get('page', 1);
     $paginated = new LengthAwarePaginator(
@@ -95,11 +94,19 @@ public function showRestaurants($slug)
         ['path' => request()->url(), 'query' => request()->query()]
     );
 
+    if (request()->ajax()) {
+        return view('meals.restaurants', [
+            'restaurants' => $paginated,
+            'meal' => $meal,
+        ])->render();
+    }
+
     return view('meals.restaurants', [
-        'meal'         => $meal,
-        'restaurants'  => $paginated,
+        'meal' => $meal,
+        'restaurants' => $paginated,
         'selectedCity' => $selectedCity,
-        'mealname'     => $meal['name'],
+        'mealname' => $meal['name'],
+        'searchQuery' => $searchQuery,
     ]);
 }
 

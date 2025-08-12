@@ -13,6 +13,14 @@ class AdminController extends Controller
      */
     public function showLoginForm()
     {
+        if (Auth::check()) {
+            if (Auth::user()->role === 'admin') {
+                return redirect()->route('admin.dashboard');
+            }
+
+            return redirect('/home')->with('error', 'Access denied for non-admin users.');
+        }
+
         return view('admin.login');
     }
 
@@ -20,33 +28,33 @@ class AdminController extends Controller
      * Handle the admin login request.
      */
     public function login(Request $request)
-{
-    $credentials = $request->only('email', 'password');
+    {
+        $credentials = $request->only('email', 'password');
 
-    if (Auth::attempt($credentials)) {
-        $request->session()->regenerate();
+        if (Auth::attempt($credentials)) {
+            $request->session()->regenerate();
 
-        if (Auth::user()->role === 'admin') {
-            return redirect()->route('admin.dashboard');
-        } else {
+            if (Auth::user()->role === 'admin') {
+                return redirect()->route('admin.dashboard');
+            }
+
             Auth::logout();
             return redirect()->route('admin.login')->withErrors([
                 'email' => 'You are not authorized to access the admin panel.',
             ]);
         }
-    }
 
-    return back()->withErrors([
-        'email' => 'Invalid credentials.',
-    ])->onlyInput('email');
-}
+        return back()->withErrors([
+            'email' => 'Invalid credentials.',
+        ])->withInput();
+    }
 
     /**
      * Logout the admin.
      */
     public function logout(Request $request)
     {
-        Auth::logout(); // ✅ correct for single-guard system
+        Auth::logout();
 
         $request->session()->invalidate();
         $request->session()->regenerateToken();
