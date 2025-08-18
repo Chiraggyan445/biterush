@@ -15,7 +15,6 @@ class RestaurantSeeder extends Seeder
 
     public function run(): void
     {
-        // ✅ Ensure a default user exists for foreign key constraint
         $user = User::firstOrCreate(
             ['email' => 'admin@biterush.com'],
             ['name' => 'Admin', 'password' => bcrypt('password')]
