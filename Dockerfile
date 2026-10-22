@@ -34,6 +34,8 @@ WORKDIR /var/www/html
 
 COPY . .
 
+COPY ca.pem /var/www/html/ca.pem
+
 COPY --from=frontend /app/public/build ./public/build
 
 RUN composer install --no-dev --optimize-autoloader --no-interaction \
