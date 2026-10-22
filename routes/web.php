@@ -10,7 +10,8 @@ use App\Http\Controllers\{
     GoogleController,
     CartController,
     OrderController,
-    SmartSuggestionController
+    SmartSuggestionController,
+    AIController
 };
 
 use App\Http\Controllers\Admin\{
@@ -21,6 +22,7 @@ use App\Http\Controllers\Admin\{
     JsonMealController as AdminJsonMealController,
     SettingsController
 };
+use Illuminate\Support\Facades\Http;
 
 // 🌐 Public route
 Route::get('/', fn() => view('welcome'));
@@ -78,7 +80,12 @@ Route::middleware(['web'])->group(function () {
     Route::get('/order/scheduled/{id}', [OrderController::class, 'scheduled'])->name('order.schedule');
     Route::post('/refund', [OrderController::class, 'refund'])->name('order.refund');
     Route::get('/order/check-status/{id}', [OrderController::class, 'checkStatus']);
+
+    Route::post('/ai-order-submit', [AIController::class, 'store'])
+        ->middleware('auth')
+        ->name('ai-order-submit');
 });
+
 
 // 🔐 Admin Routes
 Route::prefix('admin')->name('admin.')->group(function () {

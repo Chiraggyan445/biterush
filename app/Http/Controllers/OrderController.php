@@ -115,7 +115,7 @@ public function submit(Request $request)
     try {
         $order = Order::create([
             'user_id' => Auth::id(),
-            'status' => 'placed', 
+            'status' => 'pending',
             'payment_status' => 'paid',
             'total_amount' => $finalAmount,
             'delivery_address_id' => null,

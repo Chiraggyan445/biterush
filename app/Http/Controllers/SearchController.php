@@ -59,15 +59,12 @@ public function storeCity(Request $request)
     return redirect()->route('all-meals');
 }
 
-
-    // ❌ Clear selected city from session
     public function clearCity()
     {
         Session::forget('selected_city');
         return redirect()->back();
     }
 
-    // 🔍 AJAX Search Meals
     public function searchMeals(Request $request)
     {
         $query = strtolower($request->input('q'));

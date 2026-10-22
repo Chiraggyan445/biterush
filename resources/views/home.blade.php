@@ -1269,9 +1269,198 @@ function closePopup() {
     </script>
 @endif
 
+<style>
+div[id^="vapi"], div[class*="vapi"] {
+    display: block !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+    z-index: 2147483647 !important;
+    position: fixed !important;
+    top: 20px !important;
+    left: 20px !important;
+    pointer-events: auto !important;
+}
+
+div[id^="vapi"]:hover, div[class*="vapi"]:hover {
+    transform: scale(1.05);
+    transition: transform 0.2s ease-in-out;
+}
+
+#vapi-support-btn {
+  display: inline-block !important;
+  visibility: visible !important;
+  opacity: 1 !important;
+  position: absolute !important;
+  top: 20px !important;
+  left: 20px !important;
+  z-index: 2147483647 !important;
+  pointer-events: auto !important;
+  background-color: #42e6a3;
+  border-radius: 50%;
+  height: 80px;
+  width: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: box-shadow 0.3s ease-in-out;
+}
 
 
+#vapi-support-btn::before {
+  content: url('http://googleusercontent.com/file_content/0');
+  display: block;
+  width: 50px;
+  height: 50px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
 
+#vapi-support-btn:hover {
+  box-shadow: 0 0 15px 5px #42e6a3;
+  cursor: pointer;
+}
+</style>
+
+<!-- Include VAPI SDK -->
+<!-- Vapi AI and Razorpay -->
+<script src="https://checkout.razorpay.com/v1/checkout.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@daily-co/daily-js@0.99.0" async defer></script>
+<script src="https://cdn.jsdelivr.net/gh/VapiAI/html-script-tag@latest/dist/assets/index.js" async defer></script>
+
+
+<!-- Payment Button (Initially Hidden) -->
+<button id="payButton"
+    class="btn btn-success rounded-pill shadow-lg mt-3"
+    style="display:none; position: fixed; top: 90px; left: 20px; z-index: 10000;">
+    Pay Now
+</button>
+
+<script>
+console.log("Script loaded - Initializing...");
+
+// Ensure DOM is fully loaded before attaching events
+document.addEventListener("DOMContentLoaded", () => {
+    console.log("DOM fully loaded - Initializing AI and Payment...");
+
+    const payButton = document.getElementById('payButton');
+    if (!payButton) {
+        console.error("Pay Button not found in DOM!");
+        return;
+    }
+
+    // Payment button click handler
+    payButton.addEventListener('click', function (e) {
+        e.preventDefault();
+        console.log("Pay Now button clicked - Starting Razorpay payment...");
+        startPayment();
+    });
+
+    // Initialize AI Assistant after window load
+    window.addEventListener("load", () => {
+        console.log("Window loaded - Checking login status...");
+        const isLoggedIn = @json(Auth::check());
+
+        if (!isLoggedIn) {
+            console.warn("User not logged in — AI assistant disabled.");
+            return;
+        }
+
+        try {
+            console.log("Attempting to initialize VAPI SDK...");
+            if (window.vapiSDK) {
+                console.log("VAPI SDK found. Starting assistant...");
+                window.vapiSDK.run({
+                    apiKey: "c19dd340-64fd-43a2-afbf-7ccc28984e39",
+                    assistant: "10ac3308-16ee-49fb-b778-d0a05be2cddd",
+                    config: {
+                        mode: "voice",
+                        ui: true,
+                        position: "top-left",
+                        modal: false
+                    }
+                });
+            } else {
+                console.error("VAPI SDK not loaded.");
+            }
+        } catch (err) {
+            console.error("VAPI initialization error:", err);
+        }
+    });
+
+    // Listen for AI responses
+    window.addEventListener("vapi-response", async (e) => {
+        let userText = (e.detail.text || "").toLowerCase().trim();
+        console.log("AI said:", userText);
+
+        // Detect AI's trigger phrase for payment
+        if (
+            userText.includes('[trigger_payment]') ||
+            userText.includes('opening the razorpay window') ||
+            userText.includes('order confirmed')
+        ) {
+            console.log("Trigger detected! Making Pay Now button visible...");
+            payButton.style.display = 'block';
+            console.log("Pay Now button should now be visible.");
+            return;
+        } else {
+            console.log("No trigger phrase found in AI response.");
+        }
+
+        // Call backend for other queries
+        try {
+            console.log("Fetching response from backend for:", userText);
+            const response = await fetch("/ai/handle-query?query=" + encodeURIComponent(userText));
+            const data = await response.json();
+            console.log("Backend response received:", data);
+
+            if (window.vapiSDK && data.reply) {
+                console.log("AI replying with:", data.reply);
+                window.vapiSDK.speak(data.reply);
+            }
+
+            if (data.action) {
+                console.log("AI action detected:", data.action);
+                handleAIAction(data.action);
+            }
+        } catch (err) {
+            console.error("AI response error:", err);
+        }
+    });
+});
+
+// Handle AI action like redirects
+function handleAIAction(action) {
+    console.log("Handling AI action:", action);
+    if (action.type === 'redirect') {
+        console.log("Redirecting to:", action.url);
+        window.location.href = action.url;
+    }
+}
+
+// Razorpay Payment
+function startPayment() {
+    try {
+        console.log("Initializing Razorpay...");
+        var options = {
+            "key": "{{ config('services.razorpay.key') }}",
+            "amount": 50000,
+            "currency": "INR",
+            "name": "BiteRush",
+            "description": "Food Order Payment",
+            "handler": function (response) {
+                console.log("Payment successful! Razorpay response:", response);
+                alert("Payment successful! ID: " + response.razorpay_payment_id);
+                window.location.href = "/order/track";
+            }
+        };
+        var rzp1 = new Razorpay(options);
+        rzp1.open();
+        console.log("Razorpay checkout opened.");
+    } catch (error) {
+        console.error("Payment error:", error);
+    }
+}
+</script>
 
 
 
